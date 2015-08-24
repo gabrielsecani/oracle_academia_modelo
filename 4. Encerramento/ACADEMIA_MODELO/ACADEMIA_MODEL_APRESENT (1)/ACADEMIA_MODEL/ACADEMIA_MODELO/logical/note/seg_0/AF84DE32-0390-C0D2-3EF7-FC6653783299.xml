@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Note class="oracle.dbtools.crest.model.design.Note" name="Note_1" directorySegmentName="seg_0" id="AF84DE32-0390-C0D2-3EF7-FC6653783299">
+<createdBy>Thales</createdBy>
+<createdTime>2015-05-01 18:26:55 UTC</createdTime>
+<comment>criar tabela de relacionamento Muitos para Muitos</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+</Note>

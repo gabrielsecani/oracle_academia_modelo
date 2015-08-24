@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CFDC714-CD01-1961-2024-F9357EAE4658" name="FATURA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:10:43 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_FATURA" id="452784CD-FC39-6809-B669-EF9CFFA5D60B">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:10:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="VALOR" id="D021D9C9-B258-5316-A721-5F0355014405">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:11:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="DT_VENCIMENTO" id="CFD79859-4D34-F085-3AF3-FFBB12A1CB25">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:11:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="DT_PAGTO" id="755801DA-66A8-58EB-2671-4CD8FA1685F5">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:11:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="IND_CANCELADO" id="81BA3074-EBFE-2758-415B-1759AFD80E19">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:12:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="COD_PESSOA" id="8B86898A-9DA4-74B8-A02E-E1922ABEE190">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-04-25 22:30:21 UTC</createdTime>
+<generatorID>66E22234-985D-0E54-5562-0417D4B8E2D1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>56E1FD82-16DB-62C1-54D3-AA2C75690333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="NUM_NOTA_FISCAL" id="455F3B7D-2A2E-CAFD-D5AF-5F45CC4DE191">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 21:41:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+<Attribute name="NUM_SERIE_NF" id="1151C419-FAB6-A3DB-AD2E-56E1D196279B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 21:41:04 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93F4C918-D677-29BD-8276-8A02484CDEEC" name="FATURA PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:10:57 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>452784CD-FC39-6809-B669-EF9CFFA5D60B</newElementsIDs>
+<usedAttributes>
+<attributeRef>452784CD-FC39-6809-B669-EF9CFFA5D60B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

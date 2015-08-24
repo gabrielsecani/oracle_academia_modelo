@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="CEE5F930-B4CC-7758-3E15-7C488654DBC4" name="PLANO_VALOR_FAIXA_ETARIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>0CD6DDB7-A270-0BCD-541A-023F2C9328FE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>3F2916C0-F08D-F89E-3381-DD568FD79EA0</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E2FBFF83-C976-3E81-CC1A-1E1AF9A60406</localFKIndex>
+<keyObject>02407E13-75C8-8048-6F95-379BE40AC1B5</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

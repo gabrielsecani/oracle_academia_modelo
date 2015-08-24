@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROMOCAO TEM FAIXA_ETARIA" directorySegmentName="seg_0" id="DE13A924-6426-1DB2-EE28-F097A6B15243">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:21:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>54457D9E-D5A7-B022-60C9-28F1A6FD1F00</sourcePk>
+<targetPk>127F966E-CCED-AED1-D2E1-C01894BE3750</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F6C40EF-6B21-1664-9872-533B38EE6868</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>21FFB36D-22A5-0308-5915-7F6DFA6FF91A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

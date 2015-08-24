@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8208669-A4A9-83CF-6F7E-91806284E182" name="PEDIDO_MANUTENCAO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>28BE5152-93DE-11EE-815E-A8D6DFF1F37D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PEDIDO_MANUTENCAO" id="EE86598A-F797-8F12-B515-BC8DECAC8BE9">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>7D14EFA5-2849-AB53-0AE3-9CBB8239AB9D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="E8FCF7DE-D0F5-99F7-B508-6367E56831F1">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>395B1ABE-0C01-FDAF-85D2-A25559CD4629</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_PEDIDO" id="568691D9-A717-CFB1-0A62-170A29100C3B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>F5C5E9AA-AF31-AD91-944C-5C4A008F5EC0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PEDIDO" id="8FDE975A-D124-5829-E76D-2F7A20058638">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>94851637-AC91-784D-8AF6-6D5AD52CA7B3</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCIONARIO_COD_PESSOA" id="C8089E20-0490-9317-B8D5-4946DC7FF3F5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>B4665C76-3A99-37BF-5D67-6E46AD59ABD1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2594CE75-73D8-52B4-5232-DA2C699FDB5C" referredColumn="8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE"/>
+</associations>
+</Column>
+<Column name="ATIVO_COD_ATIVO" id="898F4DE0-2F88-9778-82FD-70F5BCA4A776">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Número de patrimonio do ativo na franquia</comment>
+<generatorID>823F3800-90D6-5D21-A5A6-DE44BCBD95FC</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FF196669-998F-CE89-4B15-F1A6FCC04C0A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F335F177-5817-7CF1-5E57-BEEC89A438D8" referredColumn="FF196669-998F-CE89-4B15-F1A6FCC04C0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AF8BF11-5B35-369F-31B9-FB4F7BCED356" name="PEDIDO_MANUTENCAO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FBC84774-A209-8639-1AA0-C815DAE2212B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE86598A-F797-8F12-B515-BC8DECAC8BE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4580FCCE-9AD1-92D8-2677-81E81BDB4FCE" name="PEDIDO_MANUTENCAO__IDX">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E6672A29-E897-B7E8-7579-97C95EF00716</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E8FCF7DE-D0F5-99F7-B508-6367E56831F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D933533-1B6C-10CF-B1E3-8161473E827C" name="PEDIDO_MANUTENCAO_FUNCIONARIO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FB4BA1A9-EB31-3472-7371-072CDCDD9D5A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8089E20-0490-9317-B8D5-4946DC7FF3F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AC6C6F4-1340-D617-9FFD-6EE2A129FB94" name="PEDIDO_MANUTENCAO_ATIVO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>ACEDF340-AF3D-44B2-94DA-7AE897C11F61</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="898F4DE0-2F88-9778-82FD-70F5BCA4A776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

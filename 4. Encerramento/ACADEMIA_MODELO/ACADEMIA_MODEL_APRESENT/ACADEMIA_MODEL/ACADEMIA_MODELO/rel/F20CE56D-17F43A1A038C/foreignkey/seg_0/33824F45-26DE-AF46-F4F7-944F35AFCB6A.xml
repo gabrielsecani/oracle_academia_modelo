@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33824F45-26DE-AF46-F4F7-944F35AFCB6A" name="EVENTO_IMAGEM_EVENTO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>8EE097C9-B23F-8ED5-D88C-AF46574B5FB9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>DE2A77F1-F91C-74C3-F23D-0B05D915359F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>0207417F-E5D0-8DEB-8F4C-FF0D01C1CE6D</localFKIndex>
+<keyObject>5187850A-B82F-B5CE-6711-6AEFE7FC7F87</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

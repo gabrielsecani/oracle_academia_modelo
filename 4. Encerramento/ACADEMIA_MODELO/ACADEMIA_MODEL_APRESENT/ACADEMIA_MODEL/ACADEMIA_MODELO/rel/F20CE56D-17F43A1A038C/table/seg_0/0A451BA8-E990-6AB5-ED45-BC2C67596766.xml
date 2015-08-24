@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A451BA8-E990-6AB5-ED45-BC2C67596766" name="PESSOA_ESPECIALIDADE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESPECIALIDADE_COD_ESPECIALIDADE" id="D540FD8D-2975-F773-11A0-EB87F2CFABE8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2E40887D-6B58-70BF-F5C6-0074D7C356DA</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD063C0A-0C7A-7A1E-8769-6EC6BFC45052" referredColumn="2E40887D-6B58-70BF-F5C6-0074D7C356DA"/>
+</associations>
+</Column>
+<Column name="PESSOA_FISICA_COD_PESSOA" id="2028ADFC-D23A-2A06-8F54-0D0CA7D67006">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>367B5659-03B3-7362-FB53-944C098EC1D0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2A4439E-5FCC-4702-C0B2-313AF1CD61D3" referredColumn="367B5659-03B3-7362-FB53-944C098EC1D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47525F35-B589-FBD6-BE48-4677AF35F113" name="PESSOA_ESPECIALIDADE_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D540FD8D-2975-F773-11A0-EB87F2CFABE8"/>
+<colUsage columnID="2028ADFC-D23A-2A06-8F54-0D0CA7D67006"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4341723-2DE5-A168-F2F4-311E49BF14CC" name="FK_ASS_88">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>60EC4890-69F6-FF75-6079-87448F511882</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D540FD8D-2975-F773-11A0-EB87F2CFABE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="604549EE-4501-6687-3B01-6A59B1E1A30A" name="FK_ASS_89">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>60EC4890-69F6-FF75-6079-87448F511882</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2028ADFC-D23A-2A06-8F54-0D0CA7D67006"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

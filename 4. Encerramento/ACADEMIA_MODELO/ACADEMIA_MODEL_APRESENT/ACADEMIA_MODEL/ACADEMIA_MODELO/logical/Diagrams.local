@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="9C6E4CA0-5A56-CE4E-9900-77F6B766C16F" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="7ED6B959-67DF-D4B6-91BD-32E98C6C00A5" name="SV ALUNO" visible="false"/>
+   <object objectType="sub_view" objectID="B3989D66-3B96-BBBD-6C41-3C7B57950D72" name="SV ATIVO e MANUTENCAO" visible="false"/>
+   <object objectType="sub_view" objectID="8D274373-8FB0-4C39-9B7E-35C98730A9D1" name="SV AVALICAO" visible="false"/>
+   <object objectType="sub_view" objectID="E87E553B-05F7-79E1-8D98-24298A7D07F1" name="SV FATURAMENTO" visible="false"/>
+   <object objectType="sub_view" objectID="2A415710-9E3B-1BB0-142F-2E217DE014E3" name="SV MARKETING" visible="false"/>
+   <object objectType="sub_view" objectID="D249F73C-CE2B-7E87-C390-46100B0985D6" name="SV PLANOS E PROMOCOES" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

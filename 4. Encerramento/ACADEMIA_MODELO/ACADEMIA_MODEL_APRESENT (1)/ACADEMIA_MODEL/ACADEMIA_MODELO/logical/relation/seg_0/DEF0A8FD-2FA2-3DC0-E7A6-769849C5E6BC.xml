@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESSOA TEM CIDADE" directorySegmentName="seg_0" id="DEF0A8FD-2FA2-3DC0-E7A6-769849C5E6BC">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 19:57:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>D9FDEB75-3F5F-0A52-2460-FBEFB7A56684</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DDDF6176-3444-934B-3632-3422F77DFE62</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECD02B41-A393-2101-C89A-E94A5F71F364</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA79456F-8246-82BB-0AAD-A7AE4353BC64" name="CONTRATO_FRANQUIA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>34E0326D-7241-D465-8E6A-028749A99107</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CONTRATO_FRANQUIA" id="200538BB-8D9C-25C0-D46D-7BA1C049D329">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>40F50E21-0CEB-A228-20E4-9819CBDB5312</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="C80AC3B1-5445-6CD6-B389-CEA1691E52A5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>CDFF9E1E-B636-2F48-D484-2B7E5B533CDA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F67D9CF8-91F2-2A17-9399-65A75DBDC1A6" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+<Column name="DT_INICIO" id="D906E49E-3362-BD75-AD8F-3931F8E2C11B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>F0F980DD-F4EA-5982-3F1A-33D3B02ADE38</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="C1AA3523-8E6D-5E6F-F682-9BA3BCFD79A4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>A37B45E2-0856-7419-2879-E1B5A4EA59B6</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0ACA048-E023-FEC9-772F-11F56DEF7F93" name="CONTRATO_FRANQUIA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>8F465EAA-3281-9919-6595-0AE043CD6C48</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="200538BB-8D9C-25C0-D46D-7BA1C049D329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08D11592-58CA-9A60-79F1-792591025731" name="CONTRATO_FRANQUIA_FRANQUIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>3933697B-FD33-E097-910E-A05DCA3C8897</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C80AC3B1-5445-6CD6-B389-CEA1691E52A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

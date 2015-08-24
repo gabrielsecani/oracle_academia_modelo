@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PLANO TEM PLANO_VALOR" directorySegmentName="seg_0" id="3BC0A5FF-D2B8-2DB7-D6DC-BAF08A81F2DD">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 14:18:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>5BBB62C2-1769-5618-FC94-10BD0E9F1FEB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>16D2C58A-157F-ED88-E265-72F5DFBB3FE7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD9326F7-CA47-65B3-F63C-57FADB1250E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

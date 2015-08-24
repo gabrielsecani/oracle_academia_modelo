@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIResponsibleParty class="oracle.dbtools.crest.model.businessinfo.BIResponsibleParty" name="ResParty_2" directorySegmentName="seg_0" id="F62D319A-D778-F578-6B6F-1D55F76CFFA0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-04-25 21:23:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+</BIResponsibleParty>

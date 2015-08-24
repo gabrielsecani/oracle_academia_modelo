@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58468808-A012-D6DB-8653-28C05B8E1375" name="PESQUISA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>0B4E2366-4E8F-C99D-C047-E251244FD48B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PESQUISA" id="5719D9FC-D254-8466-E87D-C272D4682CFE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>C04EE103-73A8-6967-F307-2D54AD7B6E45</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="33D99162-710C-7D93-F649-FDAEDA30B09B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>416858A2-C23C-E5BF-7D46-D7887B89B0CA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="D4598ED4-67D3-0F6A-1FD2-C93ABB345FBF">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>A3AB4C89-73F8-58A0-8FCA-E8273DA299BB</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="D7559734-F015-DDCC-5397-A289C3D4A369">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>F5B51F9B-E206-C9EB-8584-6CCB18C3B79A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="4CC68B1F-705A-FC36-FF8E-D9A2D9E7A5C3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>51A8DECF-5BD1-F2E6-EF94-56A38E33D13F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CC584B3-90C1-1D7A-1B20-3995BE36377E" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5613F2D-67D6-D804-5BC2-12879743B24E" name="PESQUISA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>9DEBD626-F22B-1C79-1DD1-BF34D6FCA07A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5719D9FC-D254-8466-E87D-C272D4682CFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F051F149-C95C-2C8E-29EA-FE0745A6A1A0" name="PESQUISA_FRANQUIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>80A7F88A-3400-7F75-945F-F192DA193EF1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CC68B1F-705A-FC36-FF8E-D9A2D9E7A5C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

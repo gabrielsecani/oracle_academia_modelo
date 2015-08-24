@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="687CC127-332E-06D7-EEA6-9725B828002B" name="ESPECIALIDADE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>68097982-04AE-4A33-7FD1-C0CB20D68354</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ESPECIALIDADE" id="2E40887D-6B58-70BF-F5C6-0074D7C356DA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>488700F1-C76D-73CB-D059-6257CCB117CF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="6496FC32-D218-A09A-3CBC-01ED42404D5F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>D41446BA-22AD-4338-5584-E0324F0A9315</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADUACAO" id="69BF7D4F-C45B-3AB3-1016-DAE3210F7CEC">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>1. SUPERIOR&lt;br/&gt;2. ESPECIALIZACAO&lt;br/&gt;3. PÓS GRADUAÇÃO&lt;br/&gt;4. MESTRADO&lt;br/&gt;5. DOUTORADO&lt;br/&gt;6. PHD</comment>
+<generatorID>3F8955CE-3619-7F8D-303E-3F1FCAD530D3</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<listOfValues>
+<valueDef value="1" description="SUPERIOR"/>
+<valueDef value="2" description="ESPECIALIZACAO"/>
+<valueDef value="3" description="MESTRADO"/>
+<valueDef value="4" description="DOUTORADO"/>
+<valueDef value="5" description="PHD"/>
+</listOfValues>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERTIFICADO" id="F713828D-DA3E-C493-23D8-23CF9CC36EA0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Comprovantes de conclusão de curso;&lt;br/&gt;Certificados;&lt;br/&gt;Diplomas</comment>
+<generatorID>80CD836E-F5C1-E470-EAC4-49A5AE07836E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E408E4B1-813B-FF7E-63F6-6F4EB3348BDE" name="ESPECIALIDADE_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>005A3CD8-82FF-6EF7-3100-6A866B1CAEDE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E40887D-6B58-70BF-F5C6-0074D7C356DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

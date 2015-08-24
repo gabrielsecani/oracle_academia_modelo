@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B398E69C-303F-20EF-89C2-D5499BED8C2E" name="AVALIACAO_MEDICA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>7FFA32E0-4BE1-FC14-A516-73AF0D95581D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FRANQUIA_COD_FRANQUIA" id="2D5453A0-3CDB-550F-4683-A52EA8CD323F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>DA60A74A-7ACD-BF96-9B25-DD84BE893D26</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8541E946-DF03-D7C1-B814-FD7DC75BFFFC" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+<Column name="COD_AVALIACAO_MEDICA" id="2FB3B847-180A-F3BA-8208-007DF673EA5E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>F1455CA0-CE12-4F79-966F-8EC9A13546E4</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_VALOR_AVALIACAO_COD_TP_VALOR_AVALIACAO" id="FB95A1D1-9682-F286-9214-A4E286344855">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>53879F84-D9EC-F6EF-325E-3190148C8B83</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2C44F89C-99C4-10B6-FEE3-31F1E4F259BC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7F9C0EB-5A1A-0715-A979-C3368D1D6551" referredColumn="2C44F89C-99C4-10B6-FEE3-31F1E4F259BC"/>
+</associations>
+</Column>
+<Column name="FATURA_ITEM_SEQ_ITEM" id="93F7688E-7A23-301F-AD5C-5750CEC7A933">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C1C2220A-06AA-23FF-4A56-234600CC9969</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>43489629-9890-D18B-150B-5CFED89A22CF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="421D125E-B17A-DE92-EDF8-A8A4513838B9" referredColumn="43489629-9890-D18B-150B-5CFED89A22CF"/>
+</associations>
+</Column>
+<Column name="MEDICO_COD_PESSOA" id="3DCC0F4C-D93E-5311-4F2B-859768BC5BE7">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>71C0CDF0-8C81-874E-5322-722D2D6DB167</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7D6BB91C-6B6E-3239-867C-CA684074B232</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8CD6552-A466-A359-5C2E-B3608165AAF5" referredColumn="7D6BB91C-6B6E-3239-867C-CA684074B232"/>
+</associations>
+</Column>
+<Column name="MEDICO_NOME" id="F768E5A1-B1D0-C97B-4231-D196A310445E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>0BD0BE92-C6A1-B63D-326A-F91106846722</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_CRM" id="17881DB7-0910-41EB-1CDB-535834425596">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>F21D11F0-2313-CD01-19D8-194312E66FCF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALIDADE" id="CB303295-B7BE-FE9F-B40D-2C27FD371F50">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>16F76238-5917-C816-471F-AE83F8597743</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IND_STATUS" id="7F67B0C7-2CBD-547F-43CD-C74206D7E777">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Apto ou não para realizar atividades físicas.</comment>
+<generatorID>CAAFB5DD-E7C2-F3DB-8268-17D31D4E8DE0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="E167F0A3-8DDF-F358-0C6B-59B5367B0D7E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>561F360A-0072-B70B-1CEA-B4E22B257295</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IND_CONSULTA_EXTERNO" id="1BAA11A4-E0D5-48E9-D3D9-3C1C600175C5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>2CA42559-1B32-35D1-FC4E-20513031D6E5</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FATURA_ITEM_FATURA_COD_FATURA" id="41415E93-B0D4-D4C1-E7A7-CA820619FF29">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>A4193C77-7D2E-B6FE-9F10-376D8C8C9189</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4F9A1876-3CF1-9A04-31EB-63BE5E721300</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="421D125E-B17A-DE92-EDF8-A8A4513838B9" referredColumn="4F9A1876-3CF1-9A04-31EB-63BE5E721300"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4F70FEB-5E1A-FEC1-9A4D-D48BFE1CBFEA" name="AVALIACAO_MEDICA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>6729D90E-4481-8FA8-A7D9-C45AAC544796</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB3B847-180A-F3BA-8208-007DF673EA5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56A44142-0E26-7FF2-A5B6-5F0A14884094" name="AVALIACAO_MEDICA_FATURA_ITEM_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>D7447CA0-A31D-2174-A3B3-8137B1B78FD0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93F7688E-7A23-301F-AD5C-5750CEC7A933"/>
+<colUsage columnID="41415E93-B0D4-D4C1-E7A7-CA820619FF29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF58502D-041D-D1D0-8D2D-34C38288F743" name="AVALIACAO_MEDICA_TP_VALOR_AVALIACAO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>C9C3F4F1-0CE1-A9E0-2A1F-0B1F4CD61E01</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB95A1D1-9682-F286-9214-A4E286344855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC39B55E-A8E9-2D4C-28D3-9EC3170D6575" name="AVALIACAO_MEDICA_FRANQUIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>BF83E55C-2B35-6D57-6EDE-422249053043</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D5453A0-3CDB-550F-4683-A52EA8CD323F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30CCD06D-E29E-BF36-182D-7A6717793C99" name="AVALIACAO_MEDICA_MEDICO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>901B3470-1F11-C5E9-B506-7DF74BBC3FAA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DCC0F4C-D93E-5311-4F2B-859768BC5BE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

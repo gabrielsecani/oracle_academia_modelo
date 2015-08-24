@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="508B91C7-4B6C-EE06-8C2F-E66B33EF2659" name="FREQUENCIA_PESSOA_FISICA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:59:38 UTC</createdTime>
+<generatorID>72AD0806-0458-419D-4F04-355ED71A63E8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>EF212E6E-CBF0-1575-1F0E-31B6B75B8B51</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>27773869-8FAA-07CE-9C06-120A37A18FCF</localFKIndex>
+<keyObject>87F2BE72-C2C2-FAA5-6FF8-BB5E5070226F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

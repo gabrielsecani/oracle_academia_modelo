@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27331C95-E4E1-2EC4-B0B5-2575D745285A" name="AVALIACAO_FISICA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C1544174-59B2-A931-DDAB-2FFB7D83C8D9</generatorID>
+<notes>Se o analisador não tiver algum membro cadastrar &quot;0&quot;</notes>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_AVALIACAO_FISICA" id="2C5064E2-EA52-5AC0-AADB-7646613F9F70">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>0820EFE0-346C-33D0-670F-D63168D2084D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_VALOR_AVALIACAO_COD_TP_VALOR_AVALIACAO" id="CED4E2A7-3736-BFE0-8F58-2EA71BCFF1C7">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>4FF96EF8-0427-C901-C03F-6E4B9D44AF88</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2C44F89C-99C4-10B6-FEE3-31F1E4F259BC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CFEA7DB-51E6-8BA3-00AC-9F5C20188A7F" referredColumn="2C44F89C-99C4-10B6-FEE3-31F1E4F259BC"/>
+</associations>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="C6A1479B-3A0C-2FDB-4047-0B1927B3E83A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>7E8A0A12-C512-88EA-7C7A-812B3C676B1A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B50DE11-B413-768E-2090-2F63354AF536" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+<Column name="FATURA_ITEM_SEQ_ITEM" id="E514B57E-0058-29F1-4522-FBF23D7FF45B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>E808D2BE-F20B-B770-82F8-FD64B39C6A72</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>43489629-9890-D18B-150B-5CFED89A22CF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="846879B2-2B09-B98B-B915-1F349C6ACBA1" referredColumn="43489629-9890-D18B-150B-5CFED89A22CF"/>
+</associations>
+</Column>
+<Column name="FUNCIONARIO_COD_PESSOA" id="B2FC5947-982A-F518-4577-30EB02CC8D04">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>5789155A-6F56-AE1D-FC75-32F1181D173B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="423FCEBD-9CDA-5B04-102A-674BBD39EF4F" referredColumn="8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE"/>
+</associations>
+</Column>
+<Column name="DT_AVALIACAO" id="2DF69EF4-55D6-441D-FA42-36C7760B3B65">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>FE441507-F699-4E18-2F12-F3127F969D1F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="8F17409B-E8DD-D220-E4B3-E4FEE8C82A7D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>93151150-4C86-0829-4B73-447D52E5157C</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FATURA_ITEM_FATURA_COD_FATURA" id="31956C76-3574-08FF-90D7-EA77DD317AC8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>DD43899A-9F87-A060-3402-173CC29D0A1A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4F9A1876-3CF1-9A04-31EB-63BE5E721300</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="846879B2-2B09-B98B-B915-1F349C6ACBA1" referredColumn="4F9A1876-3CF1-9A04-31EB-63BE5E721300"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C960DE2-8151-B383-5593-155726895D71" name="AVALIACAO_FISICA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>74011AD9-49B3-B50B-8558-A159704455C5</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C5064E2-EA52-5AC0-AADB-7646613F9F70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="531624EA-5588-30FE-3983-6A02CD28D3DF" name="AVALIACAO_FISICA_FATURA_ITEM_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>B701AE72-4489-888B-9996-2085B12691BA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E514B57E-0058-29F1-4522-FBF23D7FF45B"/>
+<colUsage columnID="31956C76-3574-08FF-90D7-EA77DD317AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A44E3954-7F6A-DC20-0AAC-5A3E10AD779A" name="AVALIACAO_FISICA_TP_VALOR_AVALIACAO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>5FC1C6C6-5CA7-71F8-92EE-4A206D4A57C4</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CED4E2A7-3736-BFE0-8F58-2EA71BCFF1C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04F5EDCD-5342-9002-6B2D-55F81945BBD3" name="AVALIACAO_FISICA_FUNCIONARIO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>9F8A5DBB-509D-E58C-FCEB-21C9A030C0B1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2FC5947-982A-F518-4577-30EB02CC8D04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C28870B-EE88-EA94-6ABB-8018748409E1" name="AVALIACAO_FISICA_FRANQUIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>05FD3D57-F034-40B8-2D84-3D3DA6729E05</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6A1479B-3A0C-2FDB-4047-0B1927B3E83A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

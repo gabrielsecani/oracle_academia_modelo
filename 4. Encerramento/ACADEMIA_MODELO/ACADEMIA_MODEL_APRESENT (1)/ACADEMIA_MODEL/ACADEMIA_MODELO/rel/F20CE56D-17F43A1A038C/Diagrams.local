@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="8DB77CF7-B2CB-3ED1-79FB-ACE1E50DA3AA" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="C472DD5B-3486-E625-702E-6B5A0FC8CB5E" name="From_LM_SV ALUNO" visible="false"/>
+   <object objectType="sub_view" objectID="B83DD401-DF59-3786-ACFF-86691FBB8A68" name="From_LM_SV ATIVO e MANUTENCAO" visible="false"/>
+   <object objectType="sub_view" objectID="5956C6C2-DABD-1B46-D37F-B5D5EAFFB996" name="From_LM_SV AVALICAO" visible="false"/>
+   <object objectType="sub_view" objectID="E1060DCC-36D4-000E-6CDF-5BBCC7EF4A36" name="From_LM_SV FATURAMENTO" visible="false"/>
+   <object objectType="sub_view" objectID="E3D2DC69-A3A6-330C-884B-4FC5FC9AE7A4" name="FROM_LM_SV FRANQUIA" visible="false"/>
+   <object objectType="sub_view" objectID="14C89A43-50B4-A159-CC1C-FAEA002CEFFC" name="From_LM_SV Funcionario" visible="false"/>
+   <object objectType="sub_view" objectID="C2D6E8A4-21BE-8E48-FC39-A84327CEC5FC" name="From_LM_SV MARKETING" visible="false"/>
+   <object objectType="sub_view" objectID="ABB674CB-EFF4-781C-C06B-83471916FCB4" name="From_LM_SV PLANOS e PROMOCAO" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E54274B-C51D-80CF-5BAA-FC8CFC8DB459" name="FATURA_ITEM_TP_ITEM_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>0A182145-BC46-3C0D-7804-CDA13DAA0E43</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>BACAEA8F-D74A-BB8C-FED3-881CC24DE83F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>76C897D3-33F3-F030-E485-80FFE48BD00E</localFKIndex>
+<keyObject>6F921401-66F4-778F-AEAD-99FBB0804C96</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

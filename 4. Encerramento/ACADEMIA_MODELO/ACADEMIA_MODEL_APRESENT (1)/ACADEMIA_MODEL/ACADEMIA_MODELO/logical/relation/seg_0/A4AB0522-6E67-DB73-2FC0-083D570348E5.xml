@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONSULTA_FISICA" directorySegmentName="seg_0" id="A4AB0522-6E67-DB73-2FC0-083D570348E5">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 17:32:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>74011AD9-49B3-B50B-8558-A159704455C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C1544174-59B2-A931-DDAB-2FFB7D83C8D9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5070816-FD06-3CEB-5F9B-5B9985F01566</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="COD_AGD_CONSULTA_FISICA" id="CAFE73E8-407A-A145-2BEE-68EADAC2E1CD">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 18:30:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+<attribute name="DT_CADASTRO" id="1002AFE5-4ADA-037F-2633-20A4E8235ED2">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:00:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="DT_CONSULTA" id="BD06C7FF-4874-0EDF-3099-22DDFC2BBEB6">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 18:30:43 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="COD_FRANQUIA" id="E876F020-DEBE-1404-19BF-96B634FB76A3">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:04:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

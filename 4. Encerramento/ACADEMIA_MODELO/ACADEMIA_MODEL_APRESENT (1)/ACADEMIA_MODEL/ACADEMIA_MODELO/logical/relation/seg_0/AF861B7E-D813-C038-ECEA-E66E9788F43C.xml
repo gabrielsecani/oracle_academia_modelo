@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TURMA TEM INSTRUTOR" directorySegmentName="seg_0" id="AF861B7E-D813-C038-ECEA-E66E9788F43C">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-28 01:35:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>2D726714-C832-1F52-ACBF-9BB1109CD896</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2BECEAB6-480F-8B11-0751-79AA79B29CDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8C81E6C-8A05-B58A-5A33-3C02BF5327A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

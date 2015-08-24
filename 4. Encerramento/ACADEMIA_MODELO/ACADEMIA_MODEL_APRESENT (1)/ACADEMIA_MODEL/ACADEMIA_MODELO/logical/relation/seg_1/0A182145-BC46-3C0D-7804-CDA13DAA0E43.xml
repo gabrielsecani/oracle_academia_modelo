@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FATURA_ITEM TEM TP_ITEM" directorySegmentName="seg_1" id="0A182145-BC46-3C0D-7804-CDA13DAA0E43">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:58:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>30899FF4-E857-683B-F769-2F3EC1BC1081</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCF76375-E425-1AF3-736F-E3C2B59A8B26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1C7E0DBB-A04F-1050-7D86-C51F905EB114</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

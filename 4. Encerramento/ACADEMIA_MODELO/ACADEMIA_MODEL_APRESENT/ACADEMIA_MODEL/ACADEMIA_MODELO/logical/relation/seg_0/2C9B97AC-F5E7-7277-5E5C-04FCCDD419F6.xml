@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FRANQUIA TEM LOJA" directorySegmentName="seg_0" id="2C9B97AC-F5E7-7277-5E5C-04FCCDD419F6">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 18:02:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>44749688-EC8C-32FB-096D-440D02A3C462</sourcePk>
+<targetPk>CE7BA9C6-F983-B546-D3A6-706730800460</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF404E42-4445-858B-F1CC-4C60AADDD7DC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

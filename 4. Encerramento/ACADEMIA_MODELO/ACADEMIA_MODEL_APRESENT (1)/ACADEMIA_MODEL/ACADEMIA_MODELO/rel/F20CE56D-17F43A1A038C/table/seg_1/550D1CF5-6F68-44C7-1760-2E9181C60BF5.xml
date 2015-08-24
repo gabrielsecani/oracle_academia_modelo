@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="550D1CF5-6F68-44C7-1760-2E9181C60BF5" name="PROMOCAO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>21FFB36D-22A5-0308-5915-7F6DFA6FF91A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PROMOCAO" id="59BB9231-FEA6-7787-90D7-198BAB539A96">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>0E9791FB-B0D3-C615-AD66-8290BBC4B8B6</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAIXA_ETARIA_COD_FAIXA_ETARIA" id="9FDD15A8-505A-7051-F6D7-CC36E270E306">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>85E15C5E-D9D5-F221-EFE6-F124A6DCFD1D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CA99E58E-CE9D-D04D-019B-0C63A51DC1C6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="939A8128-3A60-9F7F-0CF0-A7502AEDD7FC" referredColumn="CA99E58E-CE9D-D04D-019B-0C63A51DC1C6"/>
+</associations>
+</Column>
+<Column name="PORCENTAGEM" id="08A3A64A-1B8B-7E2F-D4A1-389BDD57CFDE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>377F74C1-715C-A8DC-8DA9-D8551A30FDBF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_FIXO" id="8A537463-1FB2-BED0-75C2-27F7B78348E6">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>64F1FA11-78BF-B5F5-357D-C4599418FFE5</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_DESCONTO" id="5B601F64-BA29-DB96-D11C-6D484746551C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>226BEA40-16B9-EA6D-7823-1C31AC5FDD55</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="327075C1-C45F-8C90-2F29-B7F3929E7832" name="PROMOCAO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>127F966E-CCED-AED1-D2E1-C01894BE3750</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59BB9231-FEA6-7787-90D7-198BAB539A96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="631EDBC5-8894-9625-8F78-50852CCE30EB" name="PROMOCAO_FAIXA_ETARIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>DE13A924-6426-1DB2-EE28-F097A6B15243</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FDD15A8-505A-7051-F6D7-CC36E270E306"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8C81E6C-8A05-B58A-5A33-3C02BF5327A2" name="AULA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:04:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_AULA" id="B4025744-CC91-0D5D-B45E-C8953317CFF6">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:04:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_FRANQUIA" id="D2C414B3-382A-EBEB-95E7-2E56057D8E97">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-28 01:41:03 UTC</createdTime>
+<generatorID>99578B7F-1F81-7CAA-E232-7D896B6DAB53</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>A61F18DE-8F4D-E1D9-37D7-14F2CF2E6AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_INSTRUTOR" id="1B823F4B-153F-93C5-8F38-9F89483FF4B1">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-28 01:35:46 UTC</createdTime>
+<generatorID>AF861B7E-D813-C038-ECEA-E66E9788F43C</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>56E1FD82-16DB-62C1-54D3-AA2C75690333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_ATIVIDADE" id="3D99CF8C-3062-ADD0-F1DF-1A626B1CB91F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 22:41:09 UTC</createdTime>
+<generatorID>7CA64F46-9D18-F3F8-8B73-6E26D0F7FC54</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>7965AE16-A734-D900-50E5-E6E6DF20DE82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="DT_INICIO" id="E3CC9C5F-8C97-47CA-F0B2-D982C9D3FDCA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:04:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="DT_FIM" id="C65B9C32-FBDE-0B6D-5C10-A6317005A8B1">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:04:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E2D452F-1D5D-3256-76B2-31825029BF31" name="AULA PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:04:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B4025744-CC91-0D5D-B45E-C8953317CFF6</newElementsIDs>
+<usedAttributes>
+<attributeRef>B4025744-CC91-0D5D-B45E-C8953317CFF6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

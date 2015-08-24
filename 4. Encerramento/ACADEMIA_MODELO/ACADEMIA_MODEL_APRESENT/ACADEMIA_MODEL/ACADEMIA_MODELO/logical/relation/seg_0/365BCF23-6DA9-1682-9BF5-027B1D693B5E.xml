@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FUNCIONARIO_SETOR" directorySegmentName="seg_0" id="365BCF23-6DA9-1682-9BF5-027B1D693B5E">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-24 18:35:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>9B795359-C551-40AE-B4E7-76010354F97D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AF19C9BA-89EC-49ED-054B-E03FC7CAE257</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>950D9A24-CEE9-1E40-B98B-090AADCFA77D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DT_INICIO" id="B9B868EA-1301-803B-9A48-4C70DACB7A66">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 01:10:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="DT_FIM" id="72224E91-D385-7799-D12A-A9CCC77FE876">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 01:10:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

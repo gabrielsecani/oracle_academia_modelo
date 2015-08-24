@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="825E162B-8D97-D90E-4052-979131597E11" name="INSTRUTOR">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2BECEAB6-480F-8B11-0751-79AA79B29CDE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PESSOA" id="E6171051-8D80-A8D8-9005-DB116DC2436A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>56E1FD82-16DB-62C1-54D3-AA2C75690333</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A84214A-ECD0-4326-CAE6-1FD7BF8008E6" referredColumn="8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE"/>
+</associations>
+</Column>
+<Column name="CURRICULO" id="A621060F-B6FA-7A2B-D78A-C38AB6849848">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>82F6A2A0-4B52-7CC5-C05B-F74C35EF82A9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2427E8CA-159D-25E3-A43F-67C673AF35A9" name="INSTRUTOR_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2D726714-C832-1F52-ACBF-9BB1109CD896</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6171051-8D80-A8D8-9005-DB116DC2436A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1C5BE5D-00E8-C354-BDB7-F47CA4B365F7" name="INSTRUTOR_FUNCIONARIO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>03926794-B0EA-3463-58DE-BCF69F23B73B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6171051-8D80-A8D8-9005-DB116DC2436A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

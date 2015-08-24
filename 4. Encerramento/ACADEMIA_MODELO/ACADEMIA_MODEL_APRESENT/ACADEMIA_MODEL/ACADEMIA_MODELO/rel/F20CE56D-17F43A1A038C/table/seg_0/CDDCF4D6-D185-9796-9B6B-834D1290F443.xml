@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDDCF4D6-D185-9796-9B6B-834D1290F443" name="PESSOA_FISICA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>B1361309-CF28-94C8-726F-A32BF7217A6F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PESSOA" id="367B5659-03B3-7362-FB53-944C098EC1D0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>56E1FD82-16DB-62C1-54D3-AA2C75690333</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2D05B152-57EC-C0C3-CDF9-991B76E8217D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="454C9DAC-6164-E02D-56BF-A31FF7646E19" referredColumn="2D05B152-57EC-C0C3-CDF9-991B76E8217D"/>
+</associations>
+</Column>
+<Column name="CPF" id="8958A998-7A08-FEE0-1D0E-8202F7E64BDA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>04E37408-2431-8B6E-E49E-306DA257B6AD</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RG" id="9E8054B2-86AD-C882-0E38-8C1754A41C82">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>4DED9944-F0DA-347A-72FE-45D8BF80F8A8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO" id="77BA911C-3B5A-EE17-3DAD-E109FF9EE7F8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>CD5B2D7D-5435-1EC2-1ED8-C9DE067DE451</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SANGUINEO" id="C2DEEFC1-DCE3-A701-C3C6-22786B27AFF8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>04B72DE2-72F8-39C5-1825-9F50DEEF70DC</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87F2BE72-C2C2-FAA5-6FF8-BB5E5070226F" name="PESSOA_FISICA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2D726714-C832-1F52-ACBF-9BB1109CD896</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="367B5659-03B3-7362-FB53-944C098EC1D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0D39AAE-1F4A-8786-683D-61B2333402EE" name="PESSOA_FISICA_PESSOA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>513EEAD9-3AC1-9AE8-11F0-58ADB4504FC2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="367B5659-03B3-7362-FB53-944C098EC1D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONSULTA_MEDICA" directorySegmentName="seg_0" id="1D3B8DDC-DE96-D1D6-CCC9-7EB09A7A89A5">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:52:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>6729D90E-4481-8FA8-A7D9-C45AAC544796</sourcePk>
+<targetPk>2D726714-C832-1F52-ACBF-9BB1109CD896</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7FFA32E0-4BE1-FC14-A516-73AF0D95581D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECD02B41-A393-2101-C89A-E94A5F71F364</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="COD_AGD_CONSULTA_MEDICA" id="250C31E0-A287-6DE3-EF40-ABC0F29BA43F">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:55:49 UTC</createdTime>
+<comment>Identificador único para simbolizar a relação entre a AVALIACAO_MEDICA e PESSOA, Onde pessoa realiza a avaliação.</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</attribute>
+<attribute name="VALOR" id="AA4C7D54-B87E-0C19-9C21-8B535EC6A90D">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:56:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</attribute>
+<attribute name="PAGO" id="815B46BE-DFC3-173D-95FE-68FED074DCF9">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:56:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</attribute>
+<attribute name="DT_CONSULTA" id="0A99E201-198F-2B01-0564-88F289960ECF">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:57:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="LOCAL_CONSULTA" id="5B848BBD-ECA0-AE73-648B-50EACA485E0C">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:57:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57345BE1-6398-3E57-6DF8-8CA10BAF6BCF" name="AULA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>A8C81E6C-8A05-B58A-5A33-3C02BF5327A2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_AULA" id="140FD896-B1EB-0C57-0829-E4C21F2AA7D9">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>B4025744-CC91-0D5D-B45E-C8953317CFF6</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="B568CDFF-7B8C-A9FA-7689-741068764E23">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>D2C414B3-382A-EBEB-95E7-2E56057D8E97</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CE3525F-8BC6-D801-6290-771A80ACF43A" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+<Column name="INSTRUTOR_COD_PESSOA" id="A7F0D46A-BC8B-6316-C7D8-C8901A10384C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>1B823F4B-153F-93C5-8F38-9F89483FF4B1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E6171051-8D80-A8D8-9005-DB116DC2436A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D667A804-74B9-F235-64E4-9CE09D461FCB" referredColumn="E6171051-8D80-A8D8-9005-DB116DC2436A"/>
+</associations>
+</Column>
+<Column name="ATIVIDADE_COD_ATIVIDADE" id="F0019AEF-4259-74A0-B0C3-DA5AA80C8AC3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>3D99CF8C-3062-ADD0-F1DF-1A626B1CB91F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>DEE82CF6-D98C-71DB-AA17-DECDDF07058E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F75ED47-985E-33C8-3E8E-13D3FF32408A" referredColumn="DEE82CF6-D98C-71DB-AA17-DECDDF07058E"/>
+</associations>
+</Column>
+<Column name="DT_INICIO" id="9CA51292-1F34-0DEA-169E-21D4586AC5E4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>E3CC9C5F-8C97-47CA-F0B2-D982C9D3FDCA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="892EFA5C-2C8F-871C-9ABC-87D1E7A61AEE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C65B9C32-FBDE-0B6D-5C10-A6317005A8B1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6DADF86-551C-3F30-F732-C81F3A028E52" name="AULA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>3E2D452F-1D5D-3256-76B2-31825029BF31</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="140FD896-B1EB-0C57-0829-E4C21F2AA7D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDFD4978-2432-0CD0-8C93-5251E21EAFE2" name="AULA_ATIVIDADE_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>7CA64F46-9D18-F3F8-8B73-6E26D0F7FC54</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0019AEF-4259-74A0-B0C3-DA5AA80C8AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B0D83FA-C364-3BD6-195C-FCF0AC39EF62" name="AULA_FRANQUIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>99578B7F-1F81-7CAA-E232-7D896B6DAB53</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B568CDFF-7B8C-A9FA-7689-741068764E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="177C3351-E43A-FCDA-11C9-FF9ABE63417B" name="AULA_INSTRUTOR_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>AF861B7E-D813-C038-ECEA-E66E9788F43C</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7F0D46A-BC8B-6316-C7D8-C8901A10384C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PLANO_PROMOCAO" directorySegmentName="seg_0" id="FE9819CC-2DEA-2613-92EA-2A2E18343868">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:11:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>127F966E-CCED-AED1-D2E1-C01894BE3750</sourcePk>
+<targetPk>632E59AE-07BF-711D-7C11-D3D91532BA90</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>21FFB36D-22A5-0308-5915-7F6DFA6FF91A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD9326F7-CA47-65B3-F63C-57FADB1250E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DT_INICIO" id="F342E97E-C050-1E21-6036-295DA2E455F0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 19:08:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="DT_FIM" id="3B0806DD-BCDC-0A2A-86BB-87C54EBB9EDF">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 19:08:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

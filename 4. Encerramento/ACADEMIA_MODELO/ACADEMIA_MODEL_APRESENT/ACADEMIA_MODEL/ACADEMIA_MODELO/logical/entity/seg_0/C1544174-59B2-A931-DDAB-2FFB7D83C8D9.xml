@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1544174-59B2-A931-DDAB-2FFB7D83C8D9" name="AVALIACAO_FISICA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:37:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<notes>Se o analisador não tiver algum membro cadastrar &quot;0&quot;</notes>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_AVALIACAO_FISICA" id="0820EFE0-346C-33D0-670F-D63168D2084D">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:37:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_TP_VALOR_AVALIACAO" id="4FF96EF8-0427-C901-C03F-6E4B9D44AF88">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 23:14:25 UTC</createdTime>
+<generatorID>5FC1C6C6-5CA7-71F8-92EE-4A206D4A57C4</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>F9624D47-9825-BE50-86F9-88D9266CBF60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_FRANQUIA" id="7E8A0A12-C512-88EA-7C7A-812B3C676B1A">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:06:10 UTC</createdTime>
+<generatorID>05FD3D57-F034-40B8-2D84-3D3DA6729E05</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>A61F18DE-8F4D-E1D9-37D7-14F2CF2E6AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="SEQ_ITEM" id="E808D2BE-F20B-B770-82F8-FD64B39C6A72">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 23:47:40 UTC</createdTime>
+<generatorID>B701AE72-4489-888B-9996-2085B12691BA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>68319054-8FF4-2D1A-2DAA-0559AEC9F247</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_FUNCIONARIO" id="5789155A-6F56-AE1D-FC75-32F1181D173B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 19:51:54 UTC</createdTime>
+<generatorID>9F8A5DBB-509D-E58C-FCEB-21C9A030C0B1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>56E1FD82-16DB-62C1-54D3-AA2C75690333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="DT_AVALIACAO" id="FE441507-F699-4E18-2F12-F3127F969D1F">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:38:23 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="VALOR" id="93151150-4C86-0829-4B73-447D52E5157C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:54:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="COD_FATURA" id="DD43899A-9F87-A060-3402-173CC29D0A1A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:15:29 UTC</createdTime>
+<generatorID>B701AE72-4489-888B-9996-2085B12691BA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>914913F9-E5B6-F9B1-A8F4-BD0EFB8A9E05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74011AD9-49B3-B50B-8558-A159704455C5" name="AVALIACAO_FISICA PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:38:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0820EFE0-346C-33D0-670F-D63168D2084D</newElementsIDs>
+<usedAttributes>
+<attributeRef>0820EFE0-346C-33D0-670F-D63168D2084D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

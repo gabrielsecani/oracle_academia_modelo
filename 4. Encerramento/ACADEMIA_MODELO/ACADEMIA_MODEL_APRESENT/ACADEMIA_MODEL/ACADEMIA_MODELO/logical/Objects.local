@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="F5070816-FD06-3CEB-5F9B-5B9985F01566" name="ALUNO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="573913A6-64D7-5833-4084-86FF7CC5DECE" name="ATESTADO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D2FAD95A-E3C1-31DD-BF37-71B71EE5058D" name="ATIVIDADE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6312FCD0-EA2C-00E9-0FCD-A544D49F5231" name="ATIVO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A8C81E6C-8A05-B58A-5A33-3C02BF5327A2" name="AULA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5E7E00E2-CA32-B201-2D72-BD302A8C694E" name="AVALIACAO_ATRIBUTOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C1544174-59B2-A931-DDAB-2FFB7D83C8D9" name="AVALIACAO_FISICA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="606C272A-1CA9-56D8-9071-C68FB6FADB32" name="AVALIACAO_FISICA_META" seqName="seg_0"/>
+   <object objectType="Entity" objectID="985AE926-9D2E-4949-B139-7D47054CAEBF" name="AVALIACAO_FUNC_RESPONSAVEL" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7FFA32E0-4BE1-FC14-A516-73AF0D95581D" name="AVALIACAO_MEDICA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4CA1B6B0-5D19-2499-0F7F-326632F5D0D8" name="AVALIACAO_MODELO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1B5AF756-8953-0AFD-1705-190F6B1ACEED" name="BIOMETRIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="91CB50D5-0AFE-7A52-626F-799408925924" name="BOLETO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="86861E73-9579-28FF-304A-CA8ABDB4281E" name="CARGO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C6420EE0-35B4-9047-4E45-811AE6E783AF" name="CARTEIRINHA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DDDF6176-3444-934B-3632-3422F77DFE62" name="CIDADE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A6CA88ED-3A99-127C-2978-505A35047AC3" name="COMUNICACAO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="34E0326D-7241-D465-8E6A-028749A99107" name="CONTRATO_FRANQUIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CAF8CB3F-FBF8-33A7-1DC5-C46C91526F94" name="DESPESA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0E47BE7F-BE26-E42E-6D4A-B38916428553" name="DIAS_SEMANA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="68097982-04AE-4A33-7FD1-C0CB20D68354" name="ESPECIALIDADE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8EC63EF3-A476-C9E2-266B-812CEADF00AB" name="ESTADO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C82FEEB5-FD40-5FDC-A840-B4188DDC4DC7" name="EVENTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="821F4E4D-EF43-F290-DA5F-74BE47A0DFAE" name="EVENTO_IMAGEM" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7F6C40EF-6B21-1664-9872-533B38EE6868" name="FAIXA_ETARIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6CFDC714-CD01-1961-2024-F9357EAE4658" name="FATURA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1C7E0DBB-A04F-1050-7D86-C51F905EB114" name="FATURA_ITEM" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3F75154B-E4A2-C5BC-2D25-A905FC4119CF" name="FORNCEDOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3E3A17E7-991A-655B-3ADE-612FF4141CDB" name="FRANQUIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D20E764F-7FF7-FA85-1303-5CE2286454E8" name="FREQUENCIA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="950D9A24-CEE9-1E40-B98B-090AADCFA77D" name="FUNCIONARIO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A1A95812-CD54-BBDF-9B9C-A72CBC90EFE9" name="GRUPO_ATRIBUTOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2BECEAB6-480F-8B11-0751-79AA79B29CDE" name="INSTRUTOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3668CB44-87DD-5E04-DCFC-8CFC22871BBF" name="INTERESSE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4CE37650-AFA8-D3BE-7F13-2D07D5D1C7E0" name="LINGUA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BF404E42-4445-858B-F1CC-4C60AADDD7DC" name="LOJA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7D0C1797-9AEC-51A9-9D5D-5750BC621D58" name="MANUTENCAO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="904EF7B5-1FBD-E70A-048D-ECC6F2DF8FB4" name="MATRICULA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E0F18A6A-939F-76BE-8A9B-AF1F5970376F" name="MEDICO" seqName="seg_1"/>
+   <object objectType="Entity" objectID="12CD9F6A-3AB3-9EEF-A9DE-1248483834C0" name="MENSALIDADE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3FE3386E-8D41-0F0B-0D54-61B66E914B99" name="PAIS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="28BE5152-93DE-11EE-815E-A8D6DFF1F37D" name="PEDIDO_MANUTENCAO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0B4E2366-4E8F-C99D-C047-E251244FD48B" name="PESQUISA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A581774E-C769-4E45-B485-958DD53D5BCE" name="PESQUISA_PERGUNTA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DC4363BC-9430-96CF-B124-4543326F00AF" name="PESQUISA_RESPOSTA_PERGUNTA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="ECD02B41-A393-2101-C89A-E94A5F71F364" name="PESSOA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B1361309-CF28-94C8-726F-A32BF7217A6F" name="PESSOA_FISICA" seqName="seg_1"/>
+   <object objectType="Entity" objectID="E0473ABB-1ACC-F62C-7956-F6A282B69A16" name="PESSOA_JURIDICA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CD9326F7-CA47-65B3-F63C-57FADB1250E1" name="PLANO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="16D2C58A-157F-ED88-E265-72F5DFBB3FE7" name="PLANO_VALOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="21FFB36D-22A5-0308-5915-7F6DFA6FF91A" name="PROMOCAO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EB7E1997-947A-7FAE-B95E-E74FA44149E7" name="PROMOCAO_ACUMULADA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AF19C9BA-89EC-49ED-054B-E03FC7CAE257" name="SETOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E84FBFE3-D938-494B-C800-EF7120E3D1D1" name="TP_ATIVO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="667720BF-7A3A-8EFE-4D71-7CEB6E5D9354" name="TP_COMUNICACAO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F1E0099A-94C9-FA12-EE92-0AD2BF218D5E" name="TP_DESPESA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DCF76375-E425-1AF3-736F-E3C2B59A8B26" name="TP_ITEM" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F4DAF9DF-5220-66DD-F546-D5E50F05EB91" name="TP_LOGRADOURO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CB721C56-359A-CD53-CB6F-22F1D2D2F73A" name="TP_VALOR_AVALIACAO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="15CCF026-3A3D-64BD-AC16-2CC816AE25B6" name="TREINAMENTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F413A290-52EA-E87A-BE08-3B7A80794508" name="TURNO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FB4BA1A9-EB31-3472-7371-072CDCDD9D5A" name=" PEDIDO_MANUTENCAO E FEITO POR FUNCIONARIO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="ADDD1949-E5A4-95AB-FD5B-F3B71991EA7E" name="ALUNO FAZ MATRICULA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="14BCB2E9-2299-B0C9-A64C-069907364697" name="ALUNO TEM META" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BAE6EDA8-2561-E730-00D8-C3428655FB3F" name="ALUNO_INTERESSE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="07CFD6F7-EB35-FA02-7BF9-BFD2023A30C5" name="ATIVO ESTA EM UMA FRANQUIA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DA35E7C3-6A3C-20F8-E2C8-3B5231517D92" name="ATIVO PERTENCE A UM SETOR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="23F617EB-22D6-2073-B12E-7BC260874A10" name="ATIVO TEM TP_ATIVO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2878C63E-993D-B246-B6B3-AA4D0DC628D4" name="ATIVO VEM DE UM FORNECEDOR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3A204661-388F-8D3D-B82C-3CADFE80F450" name="AULA_DIAS_SEMANA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D8AA6153-F69C-0EC1-D0C9-F11F13D8BF75" name="AVALIACAO_ATRIBUTOS PERTENCE A UM GRUPO_ATRIBUTOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B701AE72-4489-888B-9996-2085B12691BA" name="AVALIACAO_FISICA ESTÁ FATURA EM FATURA_ITEM" seqName="seg_1"/>
+   <object objectType="Relation" objectID="5FC1C6C6-5CA7-71F8-92EE-4A206D4A57C4" name="AVALIACAO_FISICA POSSUI TP_VALOR_AVALIACAO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9F8A5DBB-509D-E58C-FCEB-21C9A030C0B1" name="AVALIACAO_FISICA É FEITA POR UM FUNCIONARIO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5EE83147-7302-F638-84AE-E2B4E6494AC0" name="AVALIACAO_FISICA_DADOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D7447CA0-A31D-2174-A3B3-8137B1B78FD0" name="AVALIACAO_MEDICA ESTA FATURA_ITEM" seqName="seg_1"/>
+   <object objectType="Relation" objectID="C9C3F4F1-0CE1-A9E0-2A1F-0B1F4CD61E01" name="AVALIACAO_MEDICA POSSUI TP_VALOR_AVALIACAO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BF83E55C-2B35-6D57-6EDE-422249053043" name="AVALIACAO_MEDICA TEM FRANQUIA" seqName="seg_1"/>
+   <object objectType="Relation" objectID="901B3470-1F11-C5E9-B506-7DF74BBC3FAA" name="AVALIACAO_MEDICA TEM MEDICO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="49FE2D0D-713E-BC5E-8394-58B2894DA0BB" name="AVALIACAO_MODELO_ATRIBUTOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4E360B8C-C63F-22A4-0B2D-31A80277F539" name="AVALIAVAO_MEDICA GERA ATESTADO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="05FD3D57-F034-40B8-2D84-3D3DA6729E05" name="AVLIACAO FISICA É REALIZADA NA FRANQUIA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4E0842BA-E5C6-DF2B-F263-9607A537B850" name="CIDADE PERTENCE AO ESTADO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A904C27B-897A-1AEA-CE4C-AF996785418D" name="COMUNICACAO TEM TIPO_COMUNICACAO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="098FAB8A-61CF-2EDE-A526-77BD12AA4799" name="COMUNICACAO_DESTINATARIO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="A4AB0522-6E67-DB73-2FC0-083D570348E5" name="CONSULTA_FISICA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1D3B8DDC-DE96-D1D6-CCC9-7EB09A7A89A5" name="CONSULTA_MEDICA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1A21A148-FF91-BDE9-D9E9-690BF9C39B33" name="CONTRATO_PESSOA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2490EEC9-F4F8-B8E7-0564-54FBA0F252B0" name="DESPESA TEM TP_DESPESA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4F3AB77D-60DF-2707-F269-900E9BFD8BC1" name="ESTADO PERTENCE A UM PAIS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="88AEC3E8-5865-32ED-F812-7C52B69601D0" name="EVENTO ACONTECE NA FRANQUIA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8EE097C9-B23F-8ED5-D88C-AF46574B5FB9" name="EVENTO TEM EVENTO_IMAGEM" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FD7D16C5-E354-A0E6-D052-2A0FF4F4533F" name="FATURA GERA BOLETO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="66E22234-985D-0E54-5562-0417D4B8E2D1" name="FATURA POSSUI PESSOA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FC847B89-A616-CE44-44B3-A9F7593576FE" name="FATURA_ITEM DESCRIMINA FATURA" seqName="seg_1"/>
+   <object objectType="Relation" objectID="0A182145-BC46-3C0D-7804-CDA13DAA0E43" name="FATURA_ITEM TEM TP_ITEM" seqName="seg_1"/>
+   <object objectType="Relation" objectID="80A7F88A-3400-7F75-945F-F192DA193EF1" name="FRANQUIA FAZ PESQUISA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="252F08F0-5228-1A0B-3FF5-2527918BDC1B" name="FRANQUIA TEM CIDADE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8191D73C-9438-7AB7-DC16-BF59CD7ADF7D" name="FRANQUIA TEM DESPESA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2C9B97AC-F5E7-7277-5E5C-04FCCDD419F6" name="FRANQUIA TEM LOJA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E6672A29-E897-B7E8-7579-97C95EF00716" name="FRANQUIA TEM PEDIDO_MANUTENCAO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3933697B-FD33-E097-910E-A05DCA3C8897" name="FRANQUIA TEM UM CONTRATO_FRANQUIA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="51C36B86-6742-67FB-C349-7465DAF5D695" name="FRANQUIA_LINGUA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E1DC88CA-6802-8334-2E66-BD82E0D7D56F" name="FRANQUIA_PROMOCAO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A3745AAF-FDE4-4F42-402C-61B2FCE43392" name="FUNCIONARIO GERENCIA FUNCIONARIO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="8D2F3D22-3278-4258-9AEF-0F7C8BA946CE" name="FUNCIONARIO TEM AVALIACAO_FUNC_RESPONSAVEL" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BDD779CF-A68C-39A7-DEA1-3DF18675ED52" name="FUNCIONARIO_CARGO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="365BCF23-6DA9-1682-9BF5-027B1D693B5E" name="FUNCIONARIO_SETOR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="85E83A24-423B-B805-D99E-358052835A57" name="FUNCIONARIO_TURNO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4DA22CF1-4E36-6B24-60D4-27B9B092AB25" name="MATRICULA POSSUI CARTERINHAS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6FDDB958-40C4-5CDD-6F95-8C5CFD9D69F1" name="MATRICULA TEM TITULAR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E4354F9A-A5DF-FC8C-1485-C59BE47FB98E" name="MENSALIDADE ESTA EM FATURA_ITEM" seqName="seg_1"/>
+   <object objectType="Relation" objectID="5464C56B-C985-2798-805D-3843FB8DDEB1" name="MENSALIDADE TEM ALUNO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="21DE0D22-32CC-BB40-BF7F-5B071AC0B3C3" name="META_ATRIBUTOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D6D549FD-B96D-56D5-CC62-E044CA9F4463" name="PAIS_LINGUA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="73EB64E3-9E1B-51D2-FE98-0B272063380A" name="PEDIDO_MANUTENCAO GERA MANUTENCAO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="ACEDF340-AF3D-44B2-94DA-7AE897C11F61" name="PEDIDO_MANUTENCAO TEM ATIVO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="BC0FB5FC-972B-341E-F318-D09917D962F8" name="PESQUISA TEM PESQUISA_PERGUNTA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="41269E22-07D1-5CFE-44A6-35F071701919" name="PESQUISA TEM PESSOA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="42B63093-715D-A182-591A-E0EBCF913E9D" name="PESQUISA_RESPOSTA_PERGUNTA TEM PESQUISA_PERGUNTA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="89B3D265-684B-A011-901C-F60F5C66331F" name="PESSOA CRIA COMUNICACAO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="06EB78B7-0F47-463C-B72B-196B36EED8CD" name="PESSOA TEM BIOMETRIA" seqName="seg_1"/>
+   <object objectType="Relation" objectID="DEF0A8FD-2FA2-3DC0-E7A6-769849C5E6BC" name="PESSOA TEM CIDADE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="17A1F39A-A9FF-DA33-F1D0-39B79E712628" name="PESSOA TEM TP_LOGRADORO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="60EC4890-69F6-FF75-6079-87448F511882" name="PESSOA_ESPECIALIDADE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="72AD0806-0458-419D-4F04-355ED71A63E8" name="PESSOA_FISICA TEM FREQUENCIA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8C8B9AA7-B309-5A97-EA4B-9D2413CF53F8" name="PESSOA_LINGUA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A364AC9D-7CB9-0682-6A42-A4BF87733B15" name="PESSOA_TREINAMENTO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3BC0A5FF-D2B8-2DB7-D6DC-BAF08A81F2DD" name="PLANO TEM PLANO_VALOR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B519523D-51CD-D822-3F17-36F4382CF6AA" name="PLANO_ALUNO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FE9819CC-2DEA-2613-92EA-2A2E18343868" name="PLANO_PROMOCAO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0CD6DDB7-A270-0BCD-541A-023F2C9328FE" name="PLANO_VALOR TEM VALOR DIFERENTE POR FAIXA_ETARIA" seqName="seg_1"/>
+   <object objectType="Relation" objectID="DE13A924-6426-1DB2-EE28-F097A6B15243" name="PROMOCAO TEM FAIXA_ETARIA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EC701A41-CBAE-3B1E-8B74-80D7FEF75C90" name="PROMOCAO TEM PROMOCAO_ACUMULADA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C16B3105-DE86-F438-DA78-2F5F4F2823C8" name="PROMOCAO_ACUMULADA TEM PROMOCAO" seqName="seg_1"/>
+   <object objectType="Relation" objectID="8C6E7238-555A-1DD0-9A23-B6B3821A76E9" name="TURMA ALUNO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7CA64F46-9D18-F3F8-8B73-6E26D0F7FC54" name="TURMA POSSUI ATIVIDADE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="99578B7F-1F81-7CAA-E232-7D896B6DAB53" name="TURMA TEM FRANQUIA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AF861B7E-D813-C038-ECEA-E66E9788F43C" name="TURMA TEM INSTRUTOR" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E949727F-5CA7-EEA6-9A26-67ED6448DF50" name="UNIDADE TEM TP_LOGRADORO" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="03926794-B0EA-3463-58DE-BCF69F23B73B" name="Hierarchy_FUNCIONARIO_INSTRUTOR" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="513EEAD9-3AC1-9AE8-11F0-58ADB4504FC2" name="Hierarchy_PESSOA_FISICA" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="92718DDA-F266-F86A-25E8-77CB4B895E15" name="Hierarchy_PESSOA_FISICA_ALUNO" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="711A23E6-2EB3-1351-EA4A-65698232DB67" name="Hierarchy_PESSOA_FISICA_FUNCIONARIO" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="B62FC5A7-98B8-4F4D-BAF2-99E2C7603F77" name="Hierarchy_PESSOA_FISICA_MEDICO" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="3483FBB5-202C-1D95-5CE1-59C8D3E2EF32" name="Hierarchy_PESSOA_JURIDICA" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="7861EAEE-ACAD-92ED-3286-6A572C7085F5" name="Hierarchy_PESSOA_JURIDICA_FORNECEDOR" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="53517956-FD3B-2BC5-B01F-21F3CD9BE8FD" name="Hierarchy_PESSOA_JURIDICA_LOJA" seqName="seg_0"/>
+   <object objectType="Note" objectID="AF84DE32-0390-C0D2-3EF7-FC6653783299" name="Note_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

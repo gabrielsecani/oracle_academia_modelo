@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D0C1797-9AEC-51A9-9D5D-5750BC621D58" name="MANUTENCAO">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:04:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MANUTENCAO" id="2EE99010-A2B5-F425-2178-2FFFBA9C7201">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 21:35:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_PEDIDO_MANUTENCAO" id="C51C2149-20CE-61A4-7AC1-A55B4DE7793B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 21:38:34 UTC</createdTime>
+<generatorID>73EB64E3-9E1B-51D2-FE98-0B272063380A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>7D14EFA5-2849-AB53-0AE3-9CBB8239AB9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="SOLUCAO" id="F407D084-35B7-5950-964F-B33199B149AF">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:08:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+<Attribute name="VALOR" id="699147FA-35F1-3B62-036A-3D0478330007">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:08:49 UTC</createdTime>
+<comment>VALOR DA MANUTENCAO</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="NUM_NOTA_FISCAL" id="4DB34AFE-D3C9-FB9C-3E56-C4D93D707F75">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 21:39:22 UTC</createdTime>
+<comment>Nota Fiscal da manutenção</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+<Attribute name="NUM_SERIE_NF" id="569010B9-446D-10EC-F5DC-5D62837A90B2">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 21:39:58 UTC</createdTime>
+<comment>Numero de série da nota</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+</Attribute>
+<Attribute name="DT_MANUTENCAO" id="1BD00358-835B-0A80-6CCA-4C36518B41A6">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:07:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAF7AC40-4FC9-3DCE-4224-D53150FA3338" name="MANUTENCAO PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-23 01:09:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2EE99010-A2B5-F425-2178-2FFFBA9C7201</newElementsIDs>
+<usedAttributes>
+<attributeRef>2EE99010-A2B5-F425-2178-2FFFBA9C7201</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FRANQUIA FAZ PESQUISA" directorySegmentName="seg_0" id="80A7F88A-3400-7F75-945F-F192DA193EF1">
+<createdBy>Thales</createdBy>
+<createdTime>2015-05-05 01:14:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>CE7BA9C6-F983-B546-D3A6-706730800460</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0B4E2366-4E8F-C99D-C047-E251244FD48B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C2EC414-DD40-6407-0C47-69FFC149797A" name="PESQUISA_PERGUNTA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>A581774E-C769-4E45-B485-958DD53D5BCE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PERGUNTA" id="C937070D-9849-6D41-29E3-AE6604AB007F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>BFB2E596-D900-91EE-1D13-11549182DA0D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESQUISA_COD_PESQUISA" id="BDED1C58-82A7-BCF6-FA86-57D995D2E0DE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>DB5CCD7B-C4AB-6E7C-A3F3-AD2307607AC0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5719D9FC-D254-8466-E87D-C272D4682CFE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B80B55A-5187-1C0C-58D4-BE752ADA6E5E" referredColumn="5719D9FC-D254-8466-E87D-C272D4682CFE"/>
+</associations>
+</Column>
+<Column name="PERGUNTA" id="02297F3E-B720-F6AE-C05F-BC62E4DCCD73">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>A319B23F-4193-8A22-7E2E-19055BF142E3</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B43D8429-5516-3987-BEDF-A76FC5FE4248" name="PESQUISA_PERGUNTA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FE51DB91-B254-2F01-C353-6E74E8B160A2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C937070D-9849-6D41-29E3-AE6604AB007F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F5CC45E-C375-64D9-A743-59F12B36CC4F" name="PESQUISA_PERGUNTA_PESQUISA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>BC0FB5FC-972B-341E-F318-D09917D962F8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDED1C58-82A7-BCF6-FA86-57D995D2E0DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

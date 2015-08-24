@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B09BF7F6-F214-FCA1-A471-E7A0126CC724" name="BOLETO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>91CB50D5-0AFE-7A52-626F-799408925924</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_BOLETO" id="435A9236-DEC8-6490-CC07-0D677224B322">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C7111352-FC1B-EF33-2F75-627CDDB8B46B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FATURA_COD_FATURA" id="C30A1E13-4AB8-4D10-DF91-2E8551573A55">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>7D6EE970-63C1-7F81-6ABD-60362BD8904B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C6417C60-6105-DC25-F448-8F92D1073E3D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="876AED25-B5CA-5907-64AE-2FC4864A5B25" referredColumn="C6417C60-6105-DC25-F448-8F92D1073E3D"/>
+</associations>
+</Column>
+<Column name="NRO_BOLETO" id="1869565F-1937-A10B-FC63-CAE0F3FBBD5A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Número do boleto registrado</comment>
+<generatorID>AEF4E931-1675-4AE5-9934-6DCF070775D4</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="AF17F392-A697-64B9-96B8-60E783A8C93F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>51141A96-B480-4A83-D264-BDA8247F87FE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_BARRAS" id="D52EDC24-3844-8F51-6475-D7BEF534CCFF">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>FA2CE7A3-37CA-0506-956C-3BB6BB0CE331</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_EMISSAO" id="A1CD1B6D-2C3C-7EDA-0872-65B82DA4CD9A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C27059DA-14E0-0C5F-F8B2-E979817C6262</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PAGTO" id="79B839D1-CEBB-30F7-5272-C143215A2723">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>A31F3A30-11D3-FF53-C5D5-E44CA3489062</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IND_REGISTRADO" id="2272F124-DC7D-ED3A-0F0A-D3B6A12234C0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Boleto é de carteira registrado ou não</comment>
+<generatorID>4645519C-3D0C-5F2A-DE3D-0A16C446ECEF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ENVIO" id="10EBA361-1F64-0CFE-97D7-A55F2781B2EE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>E735311B-A340-E278-8AB7-3713ECB10DF2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO_PROTOCOLO" id="F0271763-A748-78BE-9423-C0C375D5BAD0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>CA75A72D-3B87-BE33-CAF2-05821785859B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED63D518-96B4-4300-E507-6BDE878FA7E1" name="BOLETO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>88FC0444-6B7D-C2D9-F039-3E6096B3241C</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="435A9236-DEC8-6490-CC07-0D677224B322"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C360A558-2F90-C01F-9036-D4DB4E9E3DAF" name="BOLETO_FATURA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FD7D16C5-E354-A0E6-D052-2A0FF4F4533F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C30A1E13-4AB8-4D10-DF91-2E8551573A55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

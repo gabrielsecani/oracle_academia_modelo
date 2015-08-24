@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5AD79BB-2ACB-5B96-3B80-462898C4A4F9" name="PLANO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>CD9326F7-CA47-65B3-F63C-57FADB1250E1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PLANO" id="8C0CB448-8B51-656F-1EBB-524BB28EB731">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>1B1A69AA-E37A-8077-EBEF-7A23DFCCC01F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLANO_VALOR_COD_PLANO_VALOR" id="2FCBA712-F390-5B9F-49FB-29F872BBDF4B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>202901CC-2B9F-E705-C05A-27958A04BF37</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4370508E-6E6C-6E2C-B8E8-7B6C604094F0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ED637BE-11D8-1FBD-3B58-B161F904453B" referredColumn="4370508E-6E6C-6E2C-B8E8-7B6C604094F0"/>
+</associations>
+</Column>
+<Column name="NOME" id="6F4CDE3B-3CDA-A397-8B62-9DCE5EAF68B7">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>81DE9049-7A46-01C0-9639-A270A793AFC5</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="3D870769-0DD1-B163-8F90-FCE2669D1E96">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>E688271F-1A4A-625F-212E-EF37AD7288A2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32849179-2DD4-6363-1C54-D755A7A95884" name="PLANO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>632E59AE-07BF-711D-7C11-D3D91532BA90</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C0CB448-8B51-656F-1EBB-524BB28EB731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="991E57A6-3C39-9853-4157-6D86FBD47B81" name="PLANO_PLANO_VALOR_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>3BC0A5FF-D2B8-2DB7-D6DC-BAF08A81F2DD</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FCBA712-F390-5B9F-49FB-29F872BBDF4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E985DCF0-7674-F696-E948-17250A963AD2" name="AVALIACAO_MODELO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>4CA1B6B0-5D19-2499-0F7F-326632F5D0D8</generatorID>
+<notes>Avaliação modelo, onde será cadastrado os modelos de avaliação, assegurando que os atributos adequados sejam requisitados quando for realizada a avaliacao.</notes>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MODELO" id="ED700B62-F42D-F1FA-ED60-5D1A8D074C78">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Código do modelo de avaliação</comment>
+<generatorID>B2AC6633-EF43-2565-1B75-DEA3A85AFC07</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="9F707F64-B769-58E6-747B-356E2658031D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>15869726-1ECA-669E-88F9-469AB11F77FE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="ABFDBE67-0D1D-0426-18EF-4CE0D1E0D8AC">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>D3169682-5F04-AE2E-1662-722D87E47A4D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FCB107B-F571-CECB-B986-0DE326A2DB9B" name="AVALIACAO_MODELO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>4D3B0FAB-E87B-333A-6390-11BE7E89D644</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED700B62-F42D-F1FA-ED60-5D1A8D074C78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78C0876B-6ABA-5728-6F32-147C6CB5B492" name="CARTEIRINHA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C6420EE0-35B4-9047-4E45-811AE6E783AF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATRICULA_COD_MATRICULA" id="7B387368-F790-C4E4-37AE-71ABC43DAF74">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>50B65B54-D4FA-09D1-B0D4-C69521CF9EA9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B23846FF-B87C-9ABF-9FBA-7995E005701F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D48CAF49-D3F7-5C85-F372-9A4DE9F05204" referredColumn="B23846FF-B87C-9ABF-9FBA-7995E005701F"/>
+</associations>
+</Column>
+<Column name="NUM_SEQ_CARTEIRINHA" id="5DA4A597-4605-A385-29AB-37E9FD91569B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>A7502EDC-769A-34D9-076A-65BC7EEF021F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IND_ATIVO" id="AB9EAA71-31C0-2450-640D-E0817407E6F7">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Só pode haver uma carteirinha ATIVA por cod_matricula</comment>
+<generatorID>4E3B7A7F-C9C2-A97B-C40D-19DCDDAC73FB</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_CARTEIRINHA" id="CD728FFF-4D14-B015-39FF-FD7B24BC8B72">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2D8C1C41-89FE-0CAB-EB6F-40A37089C8D9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_VALIDADE" id="3D0510D1-5891-AEBE-386A-767AF81442C3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>BD88F042-6ACC-B230-6CB4-D8443391ABE7</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B1790F9-F853-E64F-9C02-6BE1DB5C3B3D" name="CARTEIRINHA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>D2AAC07B-324F-C8C8-F882-A3851E397483</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DA4A597-4605-A385-29AB-37E9FD91569B"/>
+<colUsage columnID="7B387368-F790-C4E4-37AE-71ABC43DAF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEA5DC9B-AE8F-EA86-44E4-C24618DE5710" name="CARTEIRINHA_MATRICULA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>4DA22CF1-4E36-6B24-60D4-27B9B092AB25</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B387368-F790-C4E4-37AE-71ABC43DAF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

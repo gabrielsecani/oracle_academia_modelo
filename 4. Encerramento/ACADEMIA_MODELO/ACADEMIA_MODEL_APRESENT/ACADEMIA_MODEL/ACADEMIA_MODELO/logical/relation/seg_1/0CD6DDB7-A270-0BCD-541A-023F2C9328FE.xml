@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PLANO_VALOR TEM VALOR DIFERENTE POR FAIXA_ETARIA" directorySegmentName="seg_1" id="0CD6DDB7-A270-0BCD-541A-023F2C9328FE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 01:21:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>54457D9E-D5A7-B022-60C9-28F1A6FD1F00</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F6C40EF-6B21-1664-9872-533B38EE6868</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16D2C58A-157F-ED88-E265-72F5DFBB3FE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

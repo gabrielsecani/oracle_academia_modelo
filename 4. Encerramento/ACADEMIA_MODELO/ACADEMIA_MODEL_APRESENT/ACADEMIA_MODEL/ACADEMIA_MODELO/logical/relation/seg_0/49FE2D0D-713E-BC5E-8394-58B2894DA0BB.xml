@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVALIACAO_MODELO_ATRIBUTOS" directorySegmentName="seg_0" id="49FE2D0D-713E-BC5E-8394-58B2894DA0BB">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 04:29:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5E7E00E2-CA32-B201-2D72-BD302A8C694E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CA1B6B0-5D19-2499-0F7F-326632F5D0D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

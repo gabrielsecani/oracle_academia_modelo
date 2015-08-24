@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FRANQUIA_LINGUA" directorySegmentName="seg_0" id="51C36B86-6742-67FB-C349-7465DAF5D695">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 20:10:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4CE37650-AFA8-D3BE-7F13-2D07D5D1C7E0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="IND_PRINCIPAL" id="ED242918-4250-D7A2-099B-D7FD67248210">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 01:09:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</attribute>
+</attributes>
+</Relation>

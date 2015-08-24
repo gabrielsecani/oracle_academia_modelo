@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E47BE7F-BE26-E42E-6D4A-B38916428553" name="DIAS_SEMANA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:47:43 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_DIAS_SEMANA" id="3416055C-742E-1253-410C-A7588DEA9EE3">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:48:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="NOME" id="9A15DB09-A587-8182-FE78-241FE4A1AEA2">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:48:08 UTC</createdTime>
+<comment>Domingo&lt;br/&gt;Segunda&lt;br/&gt;Terça&lt;br/&gt;Quarta&lt;br/&gt;Quinta&lt;br/&gt;Sexta&lt;br/&gt;Sábado</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA00CA6A-19F4-2FDF-9BE2-B98610682FD2" name="DIAS_SEMANA PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:48:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3416055C-742E-1253-410C-A7588DEA9EE3</newElementsIDs>
+<usedAttributes>
+<attributeRef>3416055C-742E-1253-410C-A7588DEA9EE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

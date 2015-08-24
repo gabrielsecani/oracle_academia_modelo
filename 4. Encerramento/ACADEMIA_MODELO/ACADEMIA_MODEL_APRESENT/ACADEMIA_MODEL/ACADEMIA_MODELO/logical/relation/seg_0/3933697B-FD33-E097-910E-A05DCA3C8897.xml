@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FRANQUIA TEM UM CONTRATO_FRANQUIA" directorySegmentName="seg_0" id="3933697B-FD33-E097-910E-A05DCA3C8897">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:05:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>CE7BA9C6-F983-B546-D3A6-706730800460</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>34E0326D-7241-D465-8E6A-028749A99107</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

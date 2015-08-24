@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE2A77F1-F91C-74C3-F23D-0B05D915359F" name="EVENTO_IMAGEM">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>821F4E4D-EF43-F290-DA5F-74BE47A0DFAE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ_IMAGEM" id="7C27F6BB-1A7F-FDDC-F6DE-0293CA838C40">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>7359B249-4D30-D5A8-8B08-C9F36C6E2D46</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="2301DB47-D0FD-2E1E-B7BA-62E29A88583A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>3B0FADBB-BBEA-E051-6A26-B26FCAD9B5DE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEM" id="F734E781-C406-668A-E8BC-0D8763A29195">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>790E2010-C00D-5007-B901-B22700CCACCD</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTO_COD_EVENTO" id="8E885D12-FBE3-522D-DE2D-783802E33203">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>751A0F4F-1EDE-857F-3830-84EFA1E8E010</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>112EC82E-504D-877E-69CA-D26DFBB8A3DB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33824F45-26DE-AF46-F4F7-944F35AFCB6A" referredColumn="112EC82E-504D-877E-69CA-D26DFBB8A3DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F90B492C-C57D-DD04-0BDB-30A2AF574E3C" name="EVENTO_IMAGEM_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>B0B48F85-BD00-4A69-73AB-553B2EB6BCB8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E885D12-FBE3-522D-DE2D-783802E33203"/>
+<colUsage columnID="7C27F6BB-1A7F-FDDC-F6DE-0293CA838C40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0207417F-E5D0-8DEB-8F4C-FF0D01C1CE6D" name="EVENTO_IMAGEM_EVENTO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>8EE097C9-B23F-8ED5-D88C-AF46574B5FB9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E885D12-FBE3-522D-DE2D-783802E33203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

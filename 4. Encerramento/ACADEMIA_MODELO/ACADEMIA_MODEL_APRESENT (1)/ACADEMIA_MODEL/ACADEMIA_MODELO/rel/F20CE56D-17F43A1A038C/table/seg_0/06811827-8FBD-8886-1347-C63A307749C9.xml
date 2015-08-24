@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06811827-8FBD-8886-1347-C63A307749C9" name="DIAS_SEMANA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>0E47BE7F-BE26-E42E-6D4A-B38916428553</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DIAS_SEMANA" id="6EE2CD75-37DE-1F74-6F77-FF7A8542B647">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>3416055C-742E-1253-410C-A7588DEA9EE3</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="EB04CB5B-BC06-CD05-511A-05C41C0DBC9A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Domingo&lt;br/&gt;Segunda&lt;br/&gt;Terça&lt;br/&gt;Quarta&lt;br/&gt;Quinta&lt;br/&gt;Sexta&lt;br/&gt;Sábado</comment>
+<generatorID>9A15DB09-A587-8182-FE78-241FE4A1AEA2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A56ED2A-BDF1-8A18-8049-1FCBC66B92E9" name="DIAS_SEMANA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>AA00CA6A-19F4-2FDF-9BE2-B98610682FD2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EE2CD75-37DE-1F74-6F77-FF7A8542B647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATIVO VEM DE UM FORNECEDOR" directorySegmentName="seg_0" id="2878C63E-993D-B246-B6B3-AA4D0DC628D4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 21:29:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<targetPk>288822F5-9356-DC08-031A-036F915098EC</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6312FCD0-EA2C-00E9-0FCD-A544D49F5231</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3F75154B-E4A2-C5BC-2D25-A905FC4119CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

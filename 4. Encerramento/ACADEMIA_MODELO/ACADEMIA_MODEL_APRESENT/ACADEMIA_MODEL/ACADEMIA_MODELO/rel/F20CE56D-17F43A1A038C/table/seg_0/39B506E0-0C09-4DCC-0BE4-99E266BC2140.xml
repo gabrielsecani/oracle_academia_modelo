@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39B506E0-0C09-4DCC-0BE4-99E266BC2140" name="ATESTADO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>573913A6-64D7-5833-4084-86FF7CC5DECE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AVALIACAO_MEDICA_COD_AVALIACAO_MEDICA" id="E3EDE2B5-3254-C04F-4D0E-C7DE36FA5D62">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>4EBCBAB7-DA13-CD1F-CFA7-ABCE4C9FD210</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2FB3B847-180A-F3BA-8208-007DF673EA5E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="580ACA64-BD2A-CD1A-B134-527FBED32A3C" referredColumn="2FB3B847-180A-F3BA-8208-007DF673EA5E"/>
+</associations>
+</Column>
+<Column name="DT_RECEBIMENTO" id="D2D2B53B-F74F-5597-411E-27E57DD4DA40">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>45612378-45D7-474E-1934-7D994FCE0A74</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEM" id="A81D9BFA-CC63-8F69-A4BA-405297ECED8B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C16B4DE6-C38A-3144-A4C6-40E67F3AAA92</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB101CED-8CF5-5FD7-2773-0B760C44DC2D" name="ATESTADO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>EC3391C9-6A5F-65BD-936B-FB7722A98A85</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3EDE2B5-3254-C04F-4D0E-C7DE36FA5D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91BA7627-D94C-950B-C642-10D759F01639" name="ATESTADO_AVALIACAO_MEDICA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>4E360B8C-C63F-22A4-0B2D-31A80277F539</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3EDE2B5-3254-C04F-4D0E-C7DE36FA5D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

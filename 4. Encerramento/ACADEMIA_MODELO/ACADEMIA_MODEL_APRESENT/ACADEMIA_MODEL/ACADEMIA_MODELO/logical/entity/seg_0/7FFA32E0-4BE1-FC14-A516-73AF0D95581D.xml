@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FFA32E0-4BE1-FC14-A516-73AF0D95581D" name="AVALIACAO_MEDICA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:32:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_FRANQUIA" id="DA60A74A-7ACD-BF96-9B25-DD84BE893D26">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 23:46:06 UTC</createdTime>
+<generatorID>BF83E55C-2B35-6D57-6EDE-422249053043</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>A61F18DE-8F4D-E1D9-37D7-14F2CF2E6AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_AVALIACAO_MEDICA" id="F1455CA0-CE12-4F79-966F-8EC9A13546E4">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:32:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_TP_VALOR_AVALIACAO" id="53879F84-D9EC-F6EF-325E-3190148C8B83">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 23:14:08 UTC</createdTime>
+<generatorID>C9C3F4F1-0CE1-A9E0-2A1F-0B1F4CD61E01</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>F9624D47-9825-BE50-86F9-88D9266CBF60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="SEQ_ITEM" id="C1C2220A-06AA-23FF-4A56-234600CC9969">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 23:18:09 UTC</createdTime>
+<generatorID>D7447CA0-A31D-2174-A3B3-8137B1B78FD0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>68319054-8FF4-2D1A-2DAA-0559AEC9F247</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_MEDICO" id="71C0CDF0-8C81-874E-5322-722D2D6DB167">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 23:42:58 UTC</createdTime>
+<generatorID>901B3470-1F11-C5E9-B506-7DF74BBC3FAA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>56E1FD82-16DB-62C1-54D3-AA2C75690333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="MEDICO_NOME" id="0BD0BE92-C6A1-B63D-326A-F91106846722">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 23:31:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="MEDICO_CRM" id="F21D11F0-2313-CD01-19D8-194312E66FCF">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 23:32:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="VALIDADE" id="16F76238-5917-C816-471F-AE83F8597743">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:32:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="IND_STATUS" id="CAAFB5DD-E7C2-F3DB-8268-17D31D4E8DE0">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:33:35 UTC</createdTime>
+<comment>Apto ou não para realizar atividades físicas.</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="VALOR" id="561F360A-0072-B70B-1CEA-B4E22B257295">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:54:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="IND_CONSULTA_EXTERNO" id="2CA42559-1B32-35D1-FC4E-20513031D6E5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 23:09:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="COD_FATURA" id="A4193C77-7D2E-B6FE-9F10-376D8C8C9189">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:15:29 UTC</createdTime>
+<generatorID>D7447CA0-A31D-2174-A3B3-8137B1B78FD0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>914913F9-E5B6-F9B1-A8F4-BD0EFB8A9E05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6729D90E-4481-8FA8-A7D9-C45AAC544796" name="AVALIACAO_MEDICA PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:32:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F1455CA0-CE12-4F79-966F-8EC9A13546E4</newElementsIDs>
+<usedAttributes>
+<attributeRef>F1455CA0-CE12-4F79-966F-8EC9A13546E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

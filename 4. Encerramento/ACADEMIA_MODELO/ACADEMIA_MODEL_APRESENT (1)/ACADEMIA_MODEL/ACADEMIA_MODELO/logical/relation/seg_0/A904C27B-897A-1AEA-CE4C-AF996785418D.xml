@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMUNICACAO TEM TIPO_COMUNICACAO" directorySegmentName="seg_0" id="A904C27B-897A-1AEA-CE4C-AF996785418D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:18:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>76BD6912-CF28-0E6D-7410-F85BA3217A1F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>667720BF-7A3A-8EFE-4D71-7CEB6E5D9354</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6CA88ED-3A99-127C-2978-505A35047AC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMUNICACAO_DESTINATARIO" directorySegmentName="seg_1" id="098FAB8A-61CF-2EDE-A526-77BD12AA4799">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:33:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>2D726714-C832-1F52-ACBF-9BB1109CD896</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ECD02B41-A393-2101-C89A-E94A5F71F364</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6CA88ED-3A99-127C-2978-505A35047AC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

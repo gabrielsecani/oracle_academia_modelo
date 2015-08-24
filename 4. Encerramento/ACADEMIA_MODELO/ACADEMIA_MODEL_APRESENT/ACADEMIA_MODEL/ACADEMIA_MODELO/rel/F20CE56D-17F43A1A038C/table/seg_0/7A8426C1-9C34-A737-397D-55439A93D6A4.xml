@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A8426C1-9C34-A737-397D-55439A93D6A4" name="PESSOA_TREINAMENTO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TREINAMENTO_COD_TREINAMENTO" id="DD8772B0-EC66-51F6-8E44-1E336532AB0C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>80645372-DCFE-72EE-6FB7-37FEBA8187DE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="623FEDF0-1351-6829-6671-2254B1DE333A" referredColumn="80645372-DCFE-72EE-6FB7-37FEBA8187DE"/>
+</associations>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="120C1127-DE79-C329-1F58-D47C60B19E2B">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F92437F-BB1E-5DF7-38C9-FEAF811417EA" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+<Column name="DT_REALIZACAO" id="4B3EF5F4-71C7-B47A-D550-A34BE0F81B99">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>BBE592AD-0382-4A5A-3E04-0F1BC5A30523</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BCE5B9D-380D-7752-9000-9AA640EB29A6" name="PESSOA_TREINAMENTO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD8772B0-EC66-51F6-8E44-1E336532AB0C"/>
+<colUsage columnID="120C1127-DE79-C329-1F58-D47C60B19E2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E932A611-7BC6-00C8-A31F-00EC5B4E5D56" name="FK_ASS_93">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>A364AC9D-7CB9-0682-6A42-A4BF87733B15</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD8772B0-EC66-51F6-8E44-1E336532AB0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1821700B-F96D-35A3-9B40-AF0496905558" name="FK_ASS_94">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>A364AC9D-7CB9-0682-6A42-A4BF87733B15</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="120C1127-DE79-C329-1F58-D47C60B19E2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34E0326D-7241-D465-8E6A-028749A99107" name="CONTRATO_FRANQUIA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:02:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CONTRATO_FRANQUIA" id="40F50E21-0CEB-A228-20E4-9819CBDB5312">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:02:43 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_FRANQUIA" id="CDFF9E1E-B636-2F48-D484-2B7E5B533CDA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:05:19 UTC</createdTime>
+<generatorID>3933697B-FD33-E097-910E-A05DCA3C8897</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>A61F18DE-8F4D-E1D9-37D7-14F2CF2E6AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="DT_INICIO" id="F0F980DD-F4EA-5982-3F1A-33D3B02ADE38">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:06:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="DT_FIM" id="A37B45E2-0856-7419-2879-E1B5A4EA59B6">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:07:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F465EAA-3281-9919-6595-0AE043CD6C48" name="CONTRATO_FRANQUIA PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:02:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>40F50E21-0CEB-A228-20E4-9819CBDB5312</newElementsIDs>
+<usedAttributes>
+<attributeRef>40F50E21-0CEB-A228-20E4-9819CBDB5312</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

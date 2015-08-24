@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MATRICULA TEM TITULAR" directorySegmentName="seg_0" id="6FDDB958-40C4-5CDD-6F95-8C5CFD9D69F1">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:33:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>1F229E91-7297-F1B4-B568-6427F3256D55</sourcePk>
+<targetPk>1F229E91-7297-F1B4-B568-6427F3256D55</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>904EF7B5-1FBD-E70A-048D-ECC6F2DF8FB4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>904EF7B5-1FBD-E70A-048D-ECC6F2DF8FB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FUNCIONARIO GERENCIA FUNCIONARIO" directorySegmentName="seg_1" id="A3745AAF-FDE4-4F42-402C-61B2FCE43392">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-23 01:11:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<targetPk>C99648D6-6D64-A35A-C4B6-3B7892D1EC84</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>950D9A24-CEE9-1E40-B98B-090AADCFA77D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>950D9A24-CEE9-1E40-B98B-090AADCFA77D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

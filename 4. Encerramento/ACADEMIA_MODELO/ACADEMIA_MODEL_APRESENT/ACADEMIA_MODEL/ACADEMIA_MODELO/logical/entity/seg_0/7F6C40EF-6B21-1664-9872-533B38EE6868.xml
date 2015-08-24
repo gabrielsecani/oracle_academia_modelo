@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F6C40EF-6B21-1664-9872-533B38EE6868" name="FAIXA_ETARIA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:13:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_FAIXA_ETARIA" id="67F07FE8-FCF7-5972-0209-9BDB76DFDFE8">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:13:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="IDADE_INICIAL" id="BA9A30FD-F8D2-CF0F-6FD3-E18878CAEE10">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:13:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="IDADE_FINAL" id="49ED4D3D-2B20-BA1F-DBC7-BFE31443C5CB">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:14:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54457D9E-D5A7-B022-60C9-28F1A6FD1F00" name="COD_FAIXA_ETARIA PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:13:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>67F07FE8-FCF7-5972-0209-9BDB76DFDFE8</newElementsIDs>
+<usedAttributes>
+<attributeRef>67F07FE8-FCF7-5972-0209-9BDB76DFDFE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

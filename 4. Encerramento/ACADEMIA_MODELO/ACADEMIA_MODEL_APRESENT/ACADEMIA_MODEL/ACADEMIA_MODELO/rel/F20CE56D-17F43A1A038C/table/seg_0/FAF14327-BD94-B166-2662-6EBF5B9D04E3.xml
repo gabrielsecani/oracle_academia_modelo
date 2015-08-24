@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAF14327-BD94-B166-2662-6EBF5B9D04E3" name="FRANQUIA_LINGUA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LINGUA_COD_LINGUA" id="969B54B8-23FD-D09C-D955-DFD3841A828D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EE8C433F-BA11-4B5F-FBF9-8006642282DC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4031D89F-3222-D415-7552-AECA92EB3187" referredColumn="EE8C433F-BA11-4B5F-FBF9-8006642282DC"/>
+</associations>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="C181931E-95AC-247D-71F8-C49F61AF99B3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3F68A6D-397E-1074-298C-1E5FE1B2F8B1" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+<Column name="IND_PRINCIPAL" id="3858A096-1D77-CC53-9733-80E96FDC5B96">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>ED242918-4250-D7A2-099B-D7FD67248210</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73CA32D5-6EA0-D805-F56B-7FCAF8F8D32B" name="FRANQUIA_LINGUA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="969B54B8-23FD-D09C-D955-DFD3841A828D"/>
+<colUsage columnID="C181931E-95AC-247D-71F8-C49F61AF99B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55A5EA5A-A214-B37A-90AC-1082757E3F8F" name="FK_ASS_59">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>51C36B86-6742-67FB-C349-7465DAF5D695</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="969B54B8-23FD-D09C-D955-DFD3841A828D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAEC32DC-67E9-05FB-AAA2-34B17F9D646F" name="FK_ASS_60">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>51C36B86-6742-67FB-C349-7465DAF5D695</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C181931E-95AC-247D-71F8-C49F61AF99B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

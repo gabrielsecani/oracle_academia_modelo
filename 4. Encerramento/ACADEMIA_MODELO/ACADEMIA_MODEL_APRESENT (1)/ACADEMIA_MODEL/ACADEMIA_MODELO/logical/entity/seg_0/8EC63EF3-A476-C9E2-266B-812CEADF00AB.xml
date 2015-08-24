@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EC63EF3-A476-C9E2-266B-812CEADF00AB" name="ESTADO">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 19:49:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_ESTADO" id="65D15B2D-37A7-C942-8350-96A6934F9969">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 19:49:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="SIGLA" id="894BC1D5-8FDA-DA6D-72B0-0DEA22FD2A05">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 19:50:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="NOME" id="072F13D7-F440-878B-D988-0CDBFD04D4B4">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 19:50:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="COD_PAIS" id="BE581884-8989-4887-15FC-49AD5D0625C1">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 20:11:11 UTC</createdTime>
+<generatorID>4F3AB77D-60DF-2707-F269-900E9BFD8BC1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>BA4ABC89-9EBB-DFD1-A600-44A6E942550B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D63E11D5-8A4D-90DA-C6F5-9261D61592F3" name="ESTADO PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 19:50:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>65D15B2D-37A7-C942-8350-96A6934F9969</newElementsIDs>
+<usedAttributes>
+<attributeRef>65D15B2D-37A7-C942-8350-96A6934F9969</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

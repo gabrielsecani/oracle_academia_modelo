@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68097982-04AE-4A33-7FD1-C0CB20D68354" name="ESPECIALIDADE">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 20:40:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_ESPECIALIDADE" id="488700F1-C76D-73CB-D059-6257CCB117CF">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 20:40:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="NOME" id="D41446BA-22AD-4338-5584-E0324F0A9315">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 20:40:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="GRADUACAO" id="3F8955CE-3619-7F8D-303E-3F1FCAD530D3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 01:11:24 UTC</createdTime>
+<comment>1. SUPERIOR&lt;br/&gt;2. ESPECIALIZACAO&lt;br/&gt;3. PÓS GRADUAÇÃO&lt;br/&gt;4. MESTRADO&lt;br/&gt;5. DOUTORADO&lt;br/&gt;6. PHD</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<listOfValues>
+<valueDef value="1" description="SUPERIOR"/>
+<valueDef value="2" description="ESPECIALIZACAO"/>
+<valueDef value="3" description="MESTRADO"/>
+<valueDef value="4" description="DOUTORADO"/>
+<valueDef value="5" description="PHD"/>
+</listOfValues>
+</Attribute>
+<Attribute name="CERTIFICADO" id="80CD836E-F5C1-E470-EAC4-49A5AE07836E">
+<createdBy>Thales</createdBy>
+<createdTime>2015-05-05 00:49:07 UTC</createdTime>
+<comment>Comprovantes de conclusão de curso;&lt;br/&gt;Certificados;&lt;br/&gt;Diplomas</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="005A3CD8-82FF-6EF7-3100-6A866B1CAEDE" name="ESPECIALIDADE PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 20:40:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>488700F1-C76D-73CB-D059-6257CCB117CF</newElementsIDs>
+<usedAttributes>
+<attributeRef>488700F1-C76D-73CB-D059-6257CCB117CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

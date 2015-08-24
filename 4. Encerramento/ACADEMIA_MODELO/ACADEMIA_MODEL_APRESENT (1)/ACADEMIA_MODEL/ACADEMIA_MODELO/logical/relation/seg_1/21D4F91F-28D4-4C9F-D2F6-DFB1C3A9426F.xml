@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FORNECEDOR TEM EQUIPAMENTOS" directorySegmentName="seg_1" id="21D4F91F-28D4-4C9F-D2F6-DFB1C3A9426F">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-23 00:33:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>26BA1E02-877B-DD26-2AF9-389B53700C3A</sourcePk>
+<targetPk>288822F5-9356-DC08-031A-036F915098EC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>74071E71-9151-50C4-D355-FA4DA00E2B4C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3F75154B-E4A2-C5BC-2D25-A905FC4119CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

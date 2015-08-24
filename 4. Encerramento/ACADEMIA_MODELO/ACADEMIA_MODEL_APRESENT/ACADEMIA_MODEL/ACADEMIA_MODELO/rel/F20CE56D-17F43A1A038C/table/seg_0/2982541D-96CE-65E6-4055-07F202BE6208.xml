@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2982541D-96CE-65E6-4055-07F202BE6208" name="PESQUISA_RESPOSTA_PERGUNTA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>DC4363BC-9430-96CF-B124-4543326F00AF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESQUISA_PERGUNTA_COD_PERGUNTA" id="A587584E-71AF-A80B-F8D9-AD6AE01BB486">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>5D33988D-3D3E-D005-3484-0D7B43802939</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C937070D-9849-6D41-29E3-AE6604AB007F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="848A27F2-C2B3-8453-F86F-EEA6425954DD" referredColumn="C937070D-9849-6D41-29E3-AE6604AB007F"/>
+</associations>
+</Column>
+<Column name="RESPOSTA" id="DFCBB5E8-E88D-2658-6B92-16A7CDC1EA72">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>75D66B24-3123-7EC4-EDBA-6B3234A31242</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_COD_PESSOA" id="83D243A6-DCDC-FF91-FF30-3A930F141596">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>0056A809-C8BD-459A-DDF8-53D4E4B2CF82</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2D05B152-57EC-C0C3-CDF9-991B76E8217D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="052148E5-0336-3432-DD8B-4991BD7374F9" referredColumn="2D05B152-57EC-C0C3-CDF9-991B76E8217D"/>
+</associations>
+</Column>
+<Column name="DT_RESPOSTA" id="B7D4A286-1224-74CF-0E69-9CD92DEBF7DA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>066B64A6-2EB2-C4EB-86AE-8997F2AFEF8C</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95C8C23E-D082-0648-DF7B-16C0BABD3481" name="PESQUISA_RESPOSTA_PERGUNTA_PESSOA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>41269E22-07D1-5CFE-44A6-35F071701919</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83D243A6-DCDC-FF91-FF30-3A930F141596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31E91898-EDD7-2248-50CD-A0F10476BA0E" name="PESQUISA_RESPOSTA_PERGUNTA_PESQUISA_PERGUNTA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>42B63093-715D-A182-591A-E0EBCF913E9D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A587584E-71AF-A80B-F8D9-AD6AE01BB486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

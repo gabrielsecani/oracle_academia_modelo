@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESQUISA TEM PESQUISA_PERGUNTA" directorySegmentName="seg_0" id="BC0FB5FC-972B-341E-F318-D09917D962F8">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 13:53:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>9DEBD626-F22B-1C79-1DD1-BF34D6FCA07A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0B4E2366-4E8F-C99D-C047-E251244FD48B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A581774E-C769-4E45-B485-958DD53D5BCE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

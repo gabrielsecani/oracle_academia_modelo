@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28BE5152-93DE-11EE-815E-A8D6DFF1F37D" name="PEDIDO_MANUTENCAO">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:44:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PEDIDO_MANUTENCAO" id="7D14EFA5-2849-AB53-0AE3-9CBB8239AB9D">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:44:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_FRANQUIA" id="395B1ABE-0C01-FDAF-85D2-A25559CD4629">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:47:03 UTC</createdTime>
+<generatorID>E6672A29-E897-B7E8-7579-97C95EF00716</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A61F18DE-8F4D-E1D9-37D7-14F2CF2E6AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="DESCRICAO_PEDIDO" id="F5C5E9AA-AF31-AD91-944C-5C4A008F5EC0">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:45:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+<Attribute name="DT_PEDIDO" id="94851637-AC91-784D-8AF6-6D5AD52CA7B3">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:45:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="COD_FUNCIONARIO" id="B4665C76-3A99-37BF-5D67-6E46AD59ABD1">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:45:07 UTC</createdTime>
+<generatorID>FB4BA1A9-EB31-3472-7371-072CDCDD9D5A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>56E1FD82-16DB-62C1-54D3-AA2C75690333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_ATIVO" id="823F3800-90D6-5D21-A5A6-DE44BCBD95FC">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-23 01:01:05 UTC</createdTime>
+<comment>Número de patrimonio do ativo na franquia</comment>
+<generatorID>ACEDF340-AF3D-44B2-94DA-7AE897C11F61</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>7E0AD521-90B7-3144-1CA0-2E5C90B4F5E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBC84774-A209-8639-1AA0-C815DAE2212B" name="PEDIDO_MANUTENCAO PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 19:45:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7D14EFA5-2849-AB53-0AE3-9CBB8239AB9D</newElementsIDs>
+<usedAttributes>
+<attributeRef>7D14EFA5-2849-AB53-0AE3-9CBB8239AB9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

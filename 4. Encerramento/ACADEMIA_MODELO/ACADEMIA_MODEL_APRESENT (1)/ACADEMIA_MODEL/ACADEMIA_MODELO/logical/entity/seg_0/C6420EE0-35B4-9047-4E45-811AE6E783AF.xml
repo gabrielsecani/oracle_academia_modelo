@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6420EE0-35B4-9047-4E45-811AE6E783AF" name="CARTEIRINHA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:08:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_MATRICULA" id="50B65B54-D4FA-09D1-B0D4-C69521CF9EA9">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-04-25 22:13:33 UTC</createdTime>
+<generatorID>4DA22CF1-4E36-6B24-60D4-27B9B092AB25</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>2CCE0385-00F9-D4C7-D45F-0A99825B1B9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="NUM_SEQ_CARTEIRINHA" id="A7502EDC-769A-34D9-076A-65BC7EEF021F">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:08:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="IND_ATIVO" id="4E3B7A7F-C9C2-A97B-C40D-19DCDDAC73FB">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:09:05 UTC</createdTime>
+<comment>Só pode haver uma carteirinha ATIVA por cod_matricula</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="NUM_CARTEIRINHA" id="2D8C1C41-89FE-0CAB-EB6F-40A37089C8D9">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:08:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="DT_VALIDADE" id="BD88F042-6ACC-B230-6CB4-D8443391ABE7">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 22:08:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2AAC07B-324F-C8C8-F882-A3851E397483" name="CARTEIRINHA PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 18:45:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A7502EDC-769A-34D9-076A-65BC7EEF021F,4DA22CF1-4E36-6B24-60D4-27B9B092AB25</newElementsIDs>
+<usedAttributes>
+<attributeRef>A7502EDC-769A-34D9-076A-65BC7EEF021F</attributeRef>
+<attributeRef>50B65B54-D4FA-09D1-B0D4-C69521CF9EA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

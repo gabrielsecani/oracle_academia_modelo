@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE85F61D-8E1C-9231-0EDA-47D321CD6F46" name="CIDADE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>DDDF6176-3444-934B-3632-3422F77DFE62</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CIDADE" id="A4C20D04-893E-BB78-FC94-C0978FACDE2E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FE39B22B-7CC5-B920-F017-2C4C426FC752</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="E5469A2F-C584-73D7-8EC5-793131BA6270">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>3B12EF1B-4215-6086-5A0A-E71D835D9EE6</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_COD_ESTADO" id="933CF29B-1CDC-CB14-4866-E55BA17E3EE8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2B87189B-4C4A-8BDB-D629-26F405AD8435</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>67B160EE-9793-8E94-CABE-521205536CD0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F056A71-7DBD-DDED-8FD5-D18D7A139D90" referredColumn="67B160EE-9793-8E94-CABE-521205536CD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D17CCB77-BDD6-1434-7F88-E7B0B7C0FC5C" name="CIDADE_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>D9FDEB75-3F5F-0A52-2460-FBEFB7A56684</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4C20D04-893E-BB78-FC94-C0978FACDE2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E788C6E9-1674-1CAF-E12A-FD13E51E2E9F" name="CIDADE_ESTADO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>4E0842BA-E5C6-DF2B-F263-9607A537B850</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="933CF29B-1CDC-CB14-4866-E55BA17E3EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

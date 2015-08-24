@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATIVO PERTENCE A UM SETOR" directorySegmentName="seg_0" id="DA35E7C3-6A3C-20F8-E2C8-3B5231517D92">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 22:03:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>9B795359-C551-40AE-B4E7-76010354F97D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF19C9BA-89EC-49ED-054B-E03FC7CAE257</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6312FCD0-EA2C-00E9-0FCD-A544D49F5231</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

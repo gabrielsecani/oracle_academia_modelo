@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="428D5778-2614-7E82-6C05-78BFB175EFCC" name="AVALIACAO_ATRIBUTOS">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>5E7E00E2-CA32-B201-2D72-BD302A8C694E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ATRIBUTO" id="7D79FB77-95A7-CC98-C5D8-561DE22B3563">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Código do atributo de avaliação</comment>
+<generatorID>2EC989D0-8091-9D93-0A88-9F4D02485D46</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRUPO_ATRIBUTOS_COD_GRUPO_ATRIBUTOS" id="9E67432B-FA2E-2998-E28A-C0137D5C7304">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>3B902C35-0D0E-8087-DF50-67C9294F2493</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8C35019B-2C26-DA2F-F0F6-753E93EF7B71</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79C32F56-21AD-A1F3-B1C5-49BC2A67D983" referredColumn="8C35019B-2C26-DA2F-F0F6-753E93EF7B71"/>
+</associations>
+</Column>
+<Column name="NOME" id="F1E9BAC1-79C1-F1AB-DC47-5046FB81F464">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Nome da parte avaliada (atributo)</comment>
+<generatorID>9B96628B-AD71-A070-2D6E-9AB01FF99588</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="2DAEE006-9A85-23F3-602E-E269E993E3CF">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Descrição de como pegar essa informação, como medir o dado.</comment>
+<generatorID>23756FFF-2F81-68B3-9579-71FE50D8A4C0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_MINIMO" id="0AD73079-87D8-628B-A70D-7EA61440EA0F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Valor de referência</comment>
+<generatorID>ADFAB56B-3BD5-094B-D2BA-2FA3D57A9B7E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_MAXIMO" id="CD64E095-EEF0-9247-EEB9-DFFEBBFEB779">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Valor de referência</comment>
+<generatorID>88EEC12A-E2FC-4B9C-BDB3-CE8BC987EA6E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEM" id="713A761B-6784-1FA1-0694-0CFF5923EF67">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Imagem apontando para o local indicado para avaliação deste atributo. Com fundo transparente para exibir por cima da imagem do grupo a que este atributo pertence.</comment>
+<generatorID>6E82F968-3D6B-57D8-951D-3AA09EFF9987</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7476A3CA-AB8F-D7A0-8F15-DCC365EA816C" name="AVALIACAO_ATRIBUTOS_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>81E2D623-318E-1D94-69F4-071658AEE483</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D79FB77-95A7-CC98-C5D8-561DE22B3563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65C15647-0054-DAAD-C463-57AAFEFEEC41" name="AVALIACAO_ATRIBUTOS_GRUPO_ATRIBUTOS_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>D8AA6153-F69C-0EC1-D0C9-F11F13D8BF75</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E67432B-FA2E-2998-E28A-C0137D5C7304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

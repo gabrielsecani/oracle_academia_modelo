@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFF582A0-847F-63C9-6461-2761742AF3CF" name="MEDICO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>E0F18A6A-939F-76BE-8A9B-AF1F5970376F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PESSOA" id="7D6BB91C-6B6E-3239-867C-CA684074B232">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>56E1FD82-16DB-62C1-54D3-AA2C75690333</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>367B5659-03B3-7362-FB53-944C098EC1D0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C0CBBD0-F625-7DCB-B501-DCD1EF61E549" referredColumn="367B5659-03B3-7362-FB53-944C098EC1D0"/>
+</associations>
+</Column>
+<Column name="NUM_CONSELHO" id="0044D3CC-BF66-B54C-C880-152BE712D285">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>0D9E5F92-D1F0-1DB9-3D4C-4A30BC4B6174</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_CONSELHO" id="616EB2B6-A0E8-7146-EC2A-54A5D2C4998C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>CB0C860A-9FAA-CFB4-6983-C96BC4F281E7</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIGLA" id="6E50B26C-3199-ECE2-2876-6F3226FBDEF4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>3E807EC6-8776-65DC-F8CD-D44F620FB794</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E037413-17E4-B8B1-0104-A3F644A71848" name="MEDICO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2D726714-C832-1F52-ACBF-9BB1109CD896</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D6BB91C-6B6E-3239-867C-CA684074B232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57968B60-C044-592D-A31D-99905DF8C681" name="MEDICO_PESSOA_FISICA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>B62FC5A7-98B8-4F4D-BAF2-99E2C7603F77</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D6BB91C-6B6E-3239-867C-CA684074B232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

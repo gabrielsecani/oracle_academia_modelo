@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVALIACAO_FISICA POSSUI TP_VALOR_AVALIACAO" directorySegmentName="seg_0" id="5FC1C6C6-5CA7-71F8-92EE-4A206D4A57C4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 23:14:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>9C0F1B1B-728D-950A-8D27-B8BEE3EE51D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB721C56-359A-CD53-CB6F-22F1D2D2F73A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1544174-59B2-A931-DDAB-2FFB7D83C8D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

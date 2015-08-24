@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D48CAF49-D3F7-5C85-F372-9A4DE9F05204" name="CARTEIRINHA_MATRICULA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>4DA22CF1-4E36-6B24-60D4-27B9B092AB25</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>78C0876B-6ABA-5728-6F32-147C6CB5B492</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>EEA5DC9B-AE8F-EA86-44E4-C24618DE5710</localFKIndex>
+<keyObject>DD7B7CEF-0050-ADC8-095A-FB1C3757958C</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

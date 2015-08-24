@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64218AF2-84F9-FE29-E247-42E711AAE031" name="COMUNICACAO_DESTINATARIO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESSOA_COD_PESSOA" id="BB9652FD-2D35-865C-A6FD-E14223370B29">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2D05B152-57EC-C0C3-CDF9-991B76E8217D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B763D870-2CB1-5FBB-7918-F1A61D8163BC" referredColumn="2D05B152-57EC-C0C3-CDF9-991B76E8217D"/>
+</associations>
+</Column>
+<Column name="COMUNICACAO_COD_COMUNICACAO" id="AB74A320-0BA1-2B44-E03B-1A3107EAA0CE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>AF811859-50B7-6BD9-B0E7-DE4CC4807CE0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61672A8A-2192-6BC4-D23C-E3BF231EE682" referredColumn="AF811859-50B7-6BD9-B0E7-DE4CC4807CE0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAA53D35-B4B9-6781-CD18-3290384091AC" name="COMUNICACAO_DESTINATARIO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB9652FD-2D35-865C-A6FD-E14223370B29"/>
+<colUsage columnID="AB74A320-0BA1-2B44-E03B-1A3107EAA0CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A0BBEBB-1996-DC7D-2680-EC326FE75288" name="FK_ASS_36">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>098FAB8A-61CF-2EDE-A526-77BD12AA4799</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB9652FD-2D35-865C-A6FD-E14223370B29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3717006E-CF25-02AD-6176-1D0C221232B5" name="FK_ASS_37">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>098FAB8A-61CF-2EDE-A526-77BD12AA4799</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB74A320-0BA1-2B44-E03B-1A3107EAA0CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

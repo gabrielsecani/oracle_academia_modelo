@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROMOCAO TEM PROMOCAO_ACUMULADA" directorySegmentName="seg_0" id="EC701A41-CBAE-3B1E-8B74-80D7FEF75C90">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:15:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>127F966E-CCED-AED1-D2E1-C01894BE3750</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21FFB36D-22A5-0308-5915-7F6DFA6FF91A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB7E1997-947A-7FAE-B95E-E74FA44149E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

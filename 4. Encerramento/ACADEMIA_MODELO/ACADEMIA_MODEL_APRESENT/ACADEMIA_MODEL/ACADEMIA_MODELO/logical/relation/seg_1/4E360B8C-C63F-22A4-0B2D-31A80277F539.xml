@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVALIAVAO_MEDICA GERA ATESTADO" directorySegmentName="seg_1" id="4E360B8C-C63F-22A4-0B2D-31A80277F539">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-23 00:45:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>6729D90E-4481-8FA8-A7D9-C45AAC544796</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7FFA32E0-4BE1-FC14-A516-73AF0D95581D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>573913A6-64D7-5833-4084-86FF7CC5DECE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENTO ACONTECE NA FRANQUIA" directorySegmentName="seg_0" id="88AEC3E8-5865-32ED-F812-7C52B69601D0">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 17:38:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>E45A2D2A-F354-AB0D-75F8-B03CD8EBC8FF</sourcePk>
+<targetPk>CE7BA9C6-F983-B546-D3A6-706730800460</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C82FEEB5-FD40-5FDC-A840-B4188DDC4DC7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

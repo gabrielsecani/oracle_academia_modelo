@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B404C89-C83D-13EF-545A-FC1288AB5530" name="PESSOA_LINGUA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<comment>Esta relação mostra quais linguas a PESSOA fala e indica se qual é a principal.</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LINGUA_COD_LINGUA" id="82A2EE7C-3912-3287-2883-B061E2711F73">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EE8C433F-BA11-4B5F-FBF9-8006642282DC</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67B3A225-959F-2F62-B2B7-CB9081560528" referredColumn="EE8C433F-BA11-4B5F-FBF9-8006642282DC"/>
+</associations>
+</Column>
+<Column name="PESSOA_COD_PESSOA" id="7E54CAEB-8948-CCD0-232E-626CD1ECB140">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2D05B152-57EC-C0C3-CDF9-991B76E8217D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="432FA894-5FF2-68E8-F869-29F30473222D" referredColumn="2D05B152-57EC-C0C3-CDF9-991B76E8217D"/>
+</associations>
+</Column>
+<Column name="IND_PRINCIPAL" id="8D6CFE65-770F-CF5F-FF0E-CC8E46AD768A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<comment>Indica se é a linguagem primária (S ou N)</comment>
+<generatorID>B519AA94-D23C-2E6A-F95A-F449E6B2435E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<constraintName>CK_PESSOA_LINGUA_PRIMARIO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="Não"/>
+<valueDef value="S" description="Sim"/>
+</listOfValues>
+<defaultValue>N</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDBE13E9-D8B3-ADF3-9BEA-6506F6E53BE0" name="PESSOA_LINGUA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82A2EE7C-3912-3287-2883-B061E2711F73"/>
+<colUsage columnID="7E54CAEB-8948-CCD0-232E-626CD1ECB140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2918FFB5-D8B1-A013-1DDA-5C1EF25995CF" name="FK_ASS_91">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>8C8B9AA7-B309-5A97-EA4B-9D2413CF53F8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82A2EE7C-3912-3287-2883-B061E2711F73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C2C3709-B676-1AC8-BD31-17BD98E08836" name="FK_ASS_92">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>8C8B9AA7-B309-5A97-EA4B-9D2413CF53F8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E54CAEB-8948-CCD0-232E-626CD1ECB140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

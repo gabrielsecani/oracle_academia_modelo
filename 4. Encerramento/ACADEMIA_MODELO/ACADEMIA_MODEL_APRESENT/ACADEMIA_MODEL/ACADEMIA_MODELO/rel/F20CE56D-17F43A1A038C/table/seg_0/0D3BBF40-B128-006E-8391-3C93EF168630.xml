@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D3BBF40-B128-006E-8391-3C93EF168630" name="LOJA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>BF404E42-4445-858B-F1CC-4C60AADDD7DC</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PESSOA" id="AF18F5B7-E8A6-5E1B-5E0A-405221E6F743">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>56E1FD82-16DB-62C1-54D3-AA2C75690333</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>35B8AB6C-9BA0-3097-129D-EAA65C98968C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68E6EBC4-4558-646D-B811-94483D316D00" referredColumn="35B8AB6C-9BA0-3097-129D-EAA65C98968C"/>
+</associations>
+</Column>
+<Column name="COD_LOJA" id="35488EC8-4876-3FD3-E9BF-AA01F2C4B7DE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>F2324DCB-33A8-7CBD-483E-45016781E6EF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="FC0302FD-0856-8727-B0DA-8877505E96BA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>979ED915-783E-6CC3-26DA-6CB1919FD45E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRANQUIA_COD_FRANQUIA" id="D9243291-A912-9CDC-11B8-1D43719C2BEB">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>02286CEB-B80E-35C1-86F2-B88B80F8B61D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95686348-2F9D-E9B3-EB8C-32A04B141E90" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D82B573-1A74-01A6-09BF-E9E4AE9711C7" name="LOJA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2D726714-C832-1F52-ACBF-9BB1109CD896</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF18F5B7-E8A6-5E1B-5E0A-405221E6F743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B31A24DA-C905-BDF0-0594-302904306613" name="LOJA_PKv2">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>44749688-EC8C-32FB-096D-440D02A3C462</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35488EC8-4876-3FD3-E9BF-AA01F2C4B7DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D8826A5-7500-0260-6CCA-B9605BF96597" name="LOJA_PESSOA_JURIDICA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>53517956-FD3B-2BC5-B01F-21F3CD9BE8FD</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF18F5B7-E8A6-5E1B-5E0A-405221E6F743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7DB2125-BE0E-3062-C5BF-C1B0D49FADAB" name="LOJA_FRANQUIA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:59:38 UTC</createdTime>
+<generatorID>2C9B97AC-F5E7-7277-5E5C-04FCCDD419F6</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9243291-A912-9CDC-11B8-1D43719C2BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

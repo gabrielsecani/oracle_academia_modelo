@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AULA_DIAS_SEMANA" directorySegmentName="seg_0" id="3A204661-388F-8D3D-B82C-3CADFE80F450">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 22:30:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>3E2D452F-1D5D-3256-76B2-31825029BF31</sourcePk>
+<targetPk>AA00CA6A-19F4-2FDF-9BE2-B98610682FD2</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A8C81E6C-8A05-B58A-5A33-3C02BF5327A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E47BE7F-BE26-E42E-6D4A-B38916428553</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="HORA_INICIO" id="46601C5A-25A5-DB99-DDCC-F756523121D2">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 22:31:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="HORA_FIM" id="9AD863F6-52BB-BD4E-DB4F-013E2CD85650">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 22:31:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01DF8E67-9855-559B-D06F-CE8CF6C5F882" name="ALUNO_INTERESSE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERESSE_COD_INTERESSE" id="C150ACED-69C2-88FA-255E-213B3BE6D56F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C3C46B5C-E21E-12F4-1F5C-1C5D46E84904</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="942EFCA6-B436-62D6-FF2F-6A45608E5ACF" referredColumn="C3C46B5C-E21E-12F4-1F5C-1C5D46E84904"/>
+</associations>
+</Column>
+<Column name="ALUNO_COD_PESSOA" id="B0D2314E-E9B8-F150-9E4A-4234DE75131F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C7042408-1F8A-D5D0-671A-F8DA64627178</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A688C29-F928-205B-59B8-CAB655B1A9F0" referredColumn="C7042408-1F8A-D5D0-671A-F8DA64627178"/>
+</associations>
+</Column>
+<Column name="DT_INICIO" id="F7479FDD-34FA-C0A8-9477-987181E3767A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Data quando foi cadastrado entende-se como o ínicio desse interesse.</comment>
+<generatorID>BC0F8911-03FD-B84D-352F-D7CC8F42FF79</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A11162C-0707-6BD0-0A34-E904438F1565" name="ALUNO_INTERESSE_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C150ACED-69C2-88FA-255E-213B3BE6D56F"/>
+<colUsage columnID="B0D2314E-E9B8-F150-9E4A-4234DE75131F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58DD52E0-83A2-3EBC-623B-91B81A5DFE93" name="FK_ASS_12">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>BAE6EDA8-2561-E730-00D8-C3428655FB3F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C150ACED-69C2-88FA-255E-213B3BE6D56F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5920108F-B8B6-2FC5-F75B-EF5774B4519F" name="FK_ASS_13">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>BAE6EDA8-2561-E730-00D8-C3428655FB3F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D2314E-E9B8-F150-9E4A-4234DE75131F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

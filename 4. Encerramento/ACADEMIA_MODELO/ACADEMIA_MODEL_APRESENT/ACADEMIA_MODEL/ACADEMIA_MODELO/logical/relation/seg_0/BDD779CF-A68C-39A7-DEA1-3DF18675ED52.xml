@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FUNCIONARIO_CARGO" directorySegmentName="seg_0" id="BDD779CF-A68C-39A7-DEA1-3DF18675ED52">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-24 18:33:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>86861E73-9579-28FF-304A-CA8ABDB4281E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>950D9A24-CEE9-1E40-B98B-090AADCFA77D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DT_INCIO" id="A1586438-27FF-1B7F-E84F-118C22B046C4">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:29:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="DT_FIM" id="E43DCC23-8E32-A706-6FD0-4539E3EE4AD3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 21:29:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

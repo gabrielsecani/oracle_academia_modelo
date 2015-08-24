@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESSOA_TREINAMENTO" directorySegmentName="seg_0" id="A364AC9D-7CB9-0682-6A42-A4BF87733B15">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 22:51:59 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>18E44EB1-34C6-5940-CC18-DBBCA3845AE8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>15CCF026-3A3D-64BD-AC16-2CC816AE25B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DT_REALIZACAO" id="BBE592AD-0382-4A5A-3E04-0F1BC5A30523">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 22:52:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

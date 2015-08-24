@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B8182B9-F24C-87C6-5B7C-7768414AEA46" name="AVALIACAO_FISICA_META">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>606C272A-1CA9-56D8-9071-C68FB6FADB32</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_META" id="C0AE6A44-7022-A704-88AA-DE3CBE147596">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>5A6C9442-8A10-D732-B164-3782A98D640D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALUNO_COD_PESSOA" id="AFF281E3-A441-2575-3EF4-674A2DAA2765">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>55B9375A-2497-95D6-0191-8BF7D97D1917</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C7042408-1F8A-D5D0-671A-F8DA64627178</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2AD03F9-05F1-6F85-BF12-635FA1527C47" referredColumn="C7042408-1F8A-D5D0-671A-F8DA64627178"/>
+</associations>
+</Column>
+<Column name="OBS" id="CE3A8CC6-18EA-ED8A-E1C5-87BEDE8E4430">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>30EF1216-FE79-92E4-F2A3-3749DF616AD3</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="FB9256D5-FA54-C3E1-1CE2-5EC9BB161941">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Início da meta, data de cadastro</comment>
+<generatorID>647AA4A3-19C9-789C-F529-0077195FA9C8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="55D208B5-EA64-96B2-AA4E-FD0B3F103B40">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<comment>Quando a meta foi alcançada</comment>
+<generatorID>485300A4-EEBD-4C52-E526-5B74EF1614EA</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BB9C7C7-88DA-FA0E-7E28-6EE157BCAD52" name="AVALIACAO_FISICA_META_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>70EE5A89-5D2B-BB7C-D81C-26B4CFE6F878</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0AE6A44-7022-A704-88AA-DE3CBE147596"/>
+<colUsage columnID="AFF281E3-A441-2575-3EF4-674A2DAA2765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11993CEE-1E9B-9874-6A64-27DE7D29DE78" name="AVALIACAO_FISICA_META_ALUNO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:59:38 UTC</createdTime>
+<generatorID>14BCB2E9-2299-B0C9-A64C-069907364697</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFF281E3-A441-2575-3EF4-674A2DAA2765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFA8E26F-5E23-234A-5074-E03EE775BA5A" name="MANUTENCAO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>7D0C1797-9AEC-51A9-9D5D-5750BC621D58</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MANUTENCAO" id="EAB0BC05-629A-AA10-A628-C854CA3F7A29">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2EE99010-A2B5-F425-2178-2FFFBA9C7201</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEDIDO_MANUTENCAO_COD_PEDIDO_MANUTENCAO" id="E2D9785E-E213-D124-E0B9-7F1D2CD30668">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>C51C2149-20CE-61A4-7AC1-A55B4DE7793B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>EE86598A-F797-8F12-B515-BC8DECAC8BE9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C65FD5C9-1AC4-5236-EE06-16438D2813B8" referredColumn="EE86598A-F797-8F12-B515-BC8DECAC8BE9"/>
+</associations>
+</Column>
+<Column name="SOLUCAO" id="96BB8FA0-0B5C-BED2-9A48-0C4F454BED08">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>F407D084-35B7-5950-964F-B33199B149AF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="2C76D4EF-8C9A-9CB6-1D98-6B7C81E68DF9">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>VALOR DA MANUTENCAO</comment>
+<generatorID>699147FA-35F1-3B62-036A-3D0478330007</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_NOTA_FISCAL" id="0B80ED3A-0CC9-715B-4922-E24E77772393">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Nota Fiscal da manutenção</comment>
+<generatorID>4DB34AFE-D3C9-FB9C-3E56-C4D93D707F75</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_SERIE_NF" id="0FAEE6CC-4DA3-EC12-271D-3D63DD380B8A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Numero de série da nota</comment>
+<generatorID>569010B9-446D-10EC-F5DC-5D62837A90B2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_MANUTENCAO" id="E50A307C-441B-D620-3A07-6ED5AB5A7414">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>1BD00358-835B-0A80-6CCA-4C36518B41A6</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B92928A6-F15C-B4D7-8E06-90C0B3B7C1CB" name="MANUTENCAO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FAF7AC40-4FC9-3DCE-4224-D53150FA3338</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAB0BC05-629A-AA10-A628-C854CA3F7A29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDFBCCF9-D39C-1943-2797-DEED015AE227" name="MANUTENCAO_PEDIDO_MANUTENCAO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>73EB64E3-9E1B-51D2-FE98-0B272063380A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2D9785E-E213-D124-E0B9-7F1D2CD30668"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

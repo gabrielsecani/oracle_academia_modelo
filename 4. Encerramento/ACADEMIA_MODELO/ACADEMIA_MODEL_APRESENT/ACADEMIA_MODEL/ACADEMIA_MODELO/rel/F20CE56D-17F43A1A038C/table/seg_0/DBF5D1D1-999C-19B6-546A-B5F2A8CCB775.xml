@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBF5D1D1-999C-19B6-546A-B5F2A8CCB775" name="FRANQUIA_PROMOCAO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FRANQUIA_COD_FRANQUIA" id="A60DC4C5-60B6-DB26-E283-A30908F707EA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1F30BB9E-AFCA-E887-EE05-0D5E3D686A78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86297874-02BA-9BF0-B71C-66C0894E2037" referredColumn="1F30BB9E-AFCA-E887-EE05-0D5E3D686A78"/>
+</associations>
+</Column>
+<Column name="PROMOCAO_COD_PROMOCAO" id="4C767D92-6B36-AEAE-527E-B44C20B40C79">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>59BB9231-FEA6-7787-90D7-198BAB539A96</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFB18B0D-9DBF-16F4-5771-8174EA3D9056" referredColumn="59BB9231-FEA6-7787-90D7-198BAB539A96"/>
+</associations>
+</Column>
+<Column name="DT_INICIO" id="88EE602E-434F-10ED-4367-A2FE8181E399">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>74CB7A57-4BD3-09DA-A750-8D57A7FA24D8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="DT_FIM" id="C529A913-2276-1802-0E30-983456D4CB04">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>2A8EDAE3-E72E-AAF3-A22B-2FFD53ADEA1B</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE84FC52-D709-FF90-BC7D-BCB196D36F10" name="FRANQUIA_PROMOCAO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A60DC4C5-60B6-DB26-E283-A30908F707EA"/>
+<colUsage columnID="4C767D92-6B36-AEAE-527E-B44C20B40C79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EAE781C-8306-43E5-9456-02287B0B1D8B" name="FK_ASS_61">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>E1DC88CA-6802-8334-2E66-BD82E0D7D56F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A60DC4C5-60B6-DB26-E283-A30908F707EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="224FE3F0-223A-EC91-0C96-3589CBB81E68" name="FK_ASS_62">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>E1DC88CA-6802-8334-2E66-BD82E0D7D56F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C767D92-6B36-AEAE-527E-B44C20B40C79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

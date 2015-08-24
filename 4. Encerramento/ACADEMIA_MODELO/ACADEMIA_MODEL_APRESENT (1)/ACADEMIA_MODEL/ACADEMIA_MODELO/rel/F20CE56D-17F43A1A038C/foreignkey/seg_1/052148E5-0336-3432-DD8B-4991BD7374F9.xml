@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="052148E5-0336-3432-DD8B-4991BD7374F9" name="PESQUISA_RESPOSTA_PERGUNTA_PESSOA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>41269E22-07D1-5CFE-44A6-35F071701919</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>2982541D-96CE-65E6-4055-07F202BE6208</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>95C8C23E-D082-0648-DF7B-16C0BABD3481</localFKIndex>
+<keyObject>5131F33E-CA1D-E544-3283-438E7AE598D9</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

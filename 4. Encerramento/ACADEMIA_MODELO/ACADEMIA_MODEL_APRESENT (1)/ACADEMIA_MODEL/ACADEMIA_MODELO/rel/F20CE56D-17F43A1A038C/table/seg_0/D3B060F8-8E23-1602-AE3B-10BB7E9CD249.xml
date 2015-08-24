@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3B060F8-8E23-1602-AE3B-10BB7E9CD249" name="AVALIACAO_MODELO_ATRIBUTOS">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AVALIACAO_ATRIBUTOS_COD_ATRIBUTO" id="5593AA44-E2B4-0647-8191-20D5968BA46D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7D79FB77-95A7-CC98-C5D8-561DE22B3563</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0562AE4-E031-D530-CAED-B1DFEFBD6D94" referredColumn="7D79FB77-95A7-CC98-C5D8-561DE22B3563"/>
+</associations>
+</Column>
+<Column name="AVALIACAO_MODELO_COD_MODELO" id="6472BD7D-296F-CF99-B79F-5D6DBFBF113F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>ED700B62-F42D-F1FA-ED60-5D1A8D074C78</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB3523AC-7DFA-4B1D-025B-43B819AFE9C6" referredColumn="ED700B62-F42D-F1FA-ED60-5D1A8D074C78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A916FE6-46C3-428B-51CF-8B8D6D8D17A1" name="AVALIACAO_MODELO_ATRIBUTOS_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5593AA44-E2B4-0647-8191-20D5968BA46D"/>
+<colUsage columnID="6472BD7D-296F-CF99-B79F-5D6DBFBF113F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9506C998-756F-683D-319B-B91F938491BA" name="FK_ASS_30">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>49FE2D0D-713E-BC5E-8394-58B2894DA0BB</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5593AA44-E2B4-0647-8191-20D5968BA46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F5D5DEB-3207-825A-0BB9-26CD3B499C4D" name="FK_ASS_31">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>49FE2D0D-713E-BC5E-8394-58B2894DA0BB</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6472BD7D-296F-CF99-B79F-5D6DBFBF113F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

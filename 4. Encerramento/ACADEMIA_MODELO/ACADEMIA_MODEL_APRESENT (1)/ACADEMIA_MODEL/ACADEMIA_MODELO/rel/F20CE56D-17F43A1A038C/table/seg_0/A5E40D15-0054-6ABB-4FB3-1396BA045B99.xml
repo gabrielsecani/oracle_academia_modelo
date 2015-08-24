@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5E40D15-0054-6ABB-4FB3-1396BA045B99" name="BIOMETRIA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>1B5AF756-8953-0AFD-1705-190F6B1ACEED</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESSOA_FISICA_COD_PESSOA" id="009C5845-C99E-AFF9-288D-1BB7E95A5CF8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>F0A318C7-00CA-021D-9984-5AA1D7F145E1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>367B5659-03B3-7362-FB53-944C098EC1D0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D450576-D37B-40DA-EBEC-7573066B1A9D" referredColumn="367B5659-03B3-7362-FB53-944C098EC1D0"/>
+</associations>
+</Column>
+<Column name="FID_INDICADOR_DIR" id="4986FD8B-CB8E-626E-7449-A3AC6DFEB444">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>D70F4031-CF53-9468-4817-7C77FFD820A0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FID_MEDIO_DIR" id="311618F5-63B8-0BB0-3030-F2B91206AF24">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>94F90A8B-BD90-2A33-C30F-7E62DF4CD219</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FID_INDICADOR_ESQ" id="22BDC2B0-77CB-041D-A86B-2FDC6D2DD168">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>C189452D-D5B5-6282-F37B-F5A8E6B862AF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FID_MEDIO_ESQ" id="EA8A749E-5085-BC33-DE6C-02580CD1D3DC">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>464A5C99-F68D-770D-1EAD-A7D26F916933</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87F36DEA-7849-615D-B63A-3D5B0FF0ACD6" name="BIOMETRIA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:23 UTC</createdTime>
+<generatorID>83B0FD13-743B-2527-28EA-8DCB9C95F460</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="009C5845-C99E-AFF9-288D-1BB7E95A5CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A198EA4-9871-D08C-4836-EF3D3888A99E" name="BIOMETRIA_PESSOA_FISICA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:59:38 UTC</createdTime>
+<generatorID>06EB78B7-0F47-463C-B72B-196B36EED8CD</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="009C5845-C99E-AFF9-288D-1BB7E95A5CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

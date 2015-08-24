@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALUNO TEM META" directorySegmentName="seg_0" id="14BCB2E9-2299-B0C9-A64C-069907364697">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 15:33:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>70EE5A89-5D2B-BB7C-D81C-26B4CFE6F878</sourcePk>
+<targetPk>2D726714-C832-1F52-ACBF-9BB1109CD896</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>606C272A-1CA9-56D8-9071-C68FB6FADB32</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F5070816-FD06-3CEB-5F9B-5B9985F01566</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

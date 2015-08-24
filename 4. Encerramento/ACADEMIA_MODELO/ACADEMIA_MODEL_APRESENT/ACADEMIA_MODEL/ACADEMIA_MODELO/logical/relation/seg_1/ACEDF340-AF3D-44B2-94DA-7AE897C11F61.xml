@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEDIDO_MANUTENCAO TEM ATIVO" directorySegmentName="seg_1" id="ACEDF340-AF3D-44B2-94DA-7AE897C11F61">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-23 01:01:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>A694B010-81BA-9AAB-3630-CD34489E75BB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6312FCD0-EA2C-00E9-0FCD-A544D49F5231</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28BE5152-93DE-11EE-815E-A8D6DFF1F37D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

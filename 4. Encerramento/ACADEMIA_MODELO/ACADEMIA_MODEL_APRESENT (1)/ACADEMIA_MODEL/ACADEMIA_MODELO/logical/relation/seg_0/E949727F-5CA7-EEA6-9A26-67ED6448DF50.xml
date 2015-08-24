@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UNIDADE TEM TP_LOGRADORO" directorySegmentName="seg_0" id="E949727F-5CA7-EEA6-9A26-67ED6448DF50">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 19:32:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>53654C78-EA84-ABF0-2259-A1F1BAE12405</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4DAF9DF-5220-66DD-F546-D5E50F05EB91</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

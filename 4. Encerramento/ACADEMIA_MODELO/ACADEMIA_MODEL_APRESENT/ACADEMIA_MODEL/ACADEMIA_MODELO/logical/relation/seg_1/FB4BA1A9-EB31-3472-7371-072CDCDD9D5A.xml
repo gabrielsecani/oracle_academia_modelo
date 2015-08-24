@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name=" PEDIDO_MANUTENCAO E FEITO POR FUNCIONARIO" directorySegmentName="seg_1" id="FB4BA1A9-EB31-3472-7371-072CDCDD9D5A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:45:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>2D726714-C832-1F52-ACBF-9BB1109CD896</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>950D9A24-CEE9-1E40-B98B-090AADCFA77D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28BE5152-93DE-11EE-815E-A8D6DFF1F37D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

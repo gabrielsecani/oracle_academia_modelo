@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESSOA CRIA COMUNICACAO" directorySegmentName="seg_1" id="89B3D265-684B-A011-901C-F60F5C66331F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:05:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>29FCD493-BFEE-2DD8-1CE0-698465C48C4A</sourcePk>
+<targetPk>2D726714-C832-1F52-ACBF-9BB1109CD896</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A6CA88ED-3A99-127C-2978-505A35047AC3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>ECD02B41-A393-2101-C89A-E94A5F71F364</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

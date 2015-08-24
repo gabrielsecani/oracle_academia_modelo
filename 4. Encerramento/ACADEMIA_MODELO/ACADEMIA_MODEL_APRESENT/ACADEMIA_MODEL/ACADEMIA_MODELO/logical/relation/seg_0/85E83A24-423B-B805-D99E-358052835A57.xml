@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FUNCIONARIO_TURNO" directorySegmentName="seg_0" id="85E83A24-423B-B805-D99E-358052835A57">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-04-25 22:58:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>C90CBCA8-0376-6411-2075-B58A4C994568</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F413A290-52EA-E87A-BE08-3B7A80794508</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>950D9A24-CEE9-1E40-B98B-090AADCFA77D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DT_INICIO" id="84209226-CE71-5E9C-22E1-301B3AEA1A1C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-04-25 22:59:57 UTC</createdTime>
+<comment>Data em que o funcionario começou a trabalhar neste turno</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="DT_FIM" id="981F6D11-60A3-E8E1-B103-60BC77677686">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-04-25 22:59:57 UTC</createdTime>
+<comment>Data em que o funcionario parou  de trabalhar neste turno</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

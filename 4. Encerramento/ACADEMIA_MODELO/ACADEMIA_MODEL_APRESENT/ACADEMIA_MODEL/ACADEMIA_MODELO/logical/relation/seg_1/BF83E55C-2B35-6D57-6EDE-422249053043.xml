@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVALIACAO_MEDICA TEM FRANQUIA" directorySegmentName="seg_1" id="BF83E55C-2B35-6D57-6EDE-422249053043">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 23:46:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>CE7BA9C6-F983-B546-D3A6-706730800460</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E3A17E7-991A-655B-3ADE-612FF4141CDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7FFA32E0-4BE1-FC14-A516-73AF0D95581D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

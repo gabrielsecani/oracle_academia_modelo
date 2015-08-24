@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALUNO FAZ MATRICULA" directorySegmentName="seg_0" id="ADDD1949-E5A4-95AB-FD5B-F3B71991EA7E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 20:22:26 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>1F229E91-7297-F1B4-B568-6427F3256D55</sourcePk>
+<targetPk>2D726714-C832-1F52-ACBF-9BB1109CD896</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>904EF7B5-1FBD-E70A-048D-ECC6F2DF8FB4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F5070816-FD06-3CEB-5F9B-5B9985F01566</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

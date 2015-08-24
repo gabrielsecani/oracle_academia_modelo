@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20CEBE15-C008-EBC6-DBD3-ADB9D4EAD90D" name="DESPESA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>CAF8CB3F-FBF8-33A7-1DC5-C46C91526F94</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DESPESA" id="9FCB9736-892B-5A75-6958-6F649D3CE5A1">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>329A6D59-93DE-A0E9-7F43-6D886344FA2D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="F1AB9E08-A0FD-FD47-D106-230E27FC65F3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>F5D03923-7BC8-4915-A3A2-E6B3B6BE6103</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_DESPESA_COD_TP_DESPESA" id="A759D85D-BA53-CD09-1ABF-853E9A98B806">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>E3312752-E06D-3A37-ADD1-CD44A50D27A5</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E1C5B9C5-EC86-B08F-B108-A84237DABB6B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C80DF32-B448-0A5D-BB3F-CB45B5B8A84E" referredColumn="E1C5B9C5-EC86-B08F-B108-A84237DABB6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E301B63-449F-12DB-A2CD-F89C858DD774" name="DESPESA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>AA5B8787-9D8F-89FD-34B7-9493E7650C11</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FCB9736-892B-5A75-6958-6F649D3CE5A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A579BA5-0B12-02E7-DFD2-C814B8908DE1" name="DESPESA_TP_DESPESA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2490EEC9-F4F8-B8E7-0564-54FBA0F252B0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A759D85D-BA53-CD09-1ABF-853E9A98B806"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

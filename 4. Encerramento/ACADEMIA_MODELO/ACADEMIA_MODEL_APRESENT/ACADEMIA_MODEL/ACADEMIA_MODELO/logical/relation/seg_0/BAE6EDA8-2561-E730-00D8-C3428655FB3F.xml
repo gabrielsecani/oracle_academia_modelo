@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALUNO_INTERESSE" directorySegmentName="seg_0" id="BAE6EDA8-2561-E730-00D8-C3428655FB3F">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:21:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3668CB44-87DD-5E04-DCFC-8CFC22871BBF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5070816-FD06-3CEB-5F9B-5B9985F01566</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DT_INICIO" id="BC0F8911-03FD-B84D-352F-D7CC8F42FF79">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-20 21:24:30 UTC</createdTime>
+<comment>Data quando foi cadastrado entende-se como o ínicio desse interesse.</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BACAEA8F-D74A-BB8C-FED3-881CC24DE83F" name="FATURA_ITEM">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>1C7E0DBB-A04F-1050-7D86-C51F905EB114</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FATURA_COD_FATURA" id="4F9A1876-3CF1-9A04-31EB-63BE5E721300">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>914913F9-E5B6-F9B1-A8F4-BD0EFB8A9E05</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C6417C60-6105-DC25-F448-8F92D1073E3D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5D8E21F-FF8D-ED63-4A6E-6BF3AF801BEA" referredColumn="C6417C60-6105-DC25-F448-8F92D1073E3D"/>
+</associations>
+</Column>
+<Column name="SEQ_ITEM" id="43489629-9890-D18B-150B-5CFED89A22CF">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>68319054-8FF4-2D1A-2DAA-0559AEC9F247</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_ITEM_COD_TP_ITEM" id="A453A301-28AF-E46C-4682-309CD10CA41C">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>55684440-5F1F-6216-B3AE-C0505D15BEE0</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>66685E87-9FB2-BBC9-E79F-3396973B9234</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E54274B-C51D-80CF-5BAA-FC8CFC8DB459" referredColumn="66685E87-9FB2-BBC9-E79F-3396973B9234"/>
+</associations>
+</Column>
+<Column name="VALOR" id="2A061883-588E-8A47-946B-BB26250674DB">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>3540E514-184D-C2AC-B975-BE823B1D6413</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B31AA78-7496-B377-877D-65B8DA649365" name="FATURA_ITEM_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2D7F29E7-CED7-B5F4-A686-0D09E41BB4BC</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43489629-9890-D18B-150B-5CFED89A22CF"/>
+<colUsage columnID="4F9A1876-3CF1-9A04-31EB-63BE5E721300"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E9F3479-98C3-74BC-949A-B17B0C854135" name="FATURA_ITEM_FATURA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FC847B89-A616-CE44-44B3-A9F7593576FE</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F9A1876-3CF1-9A04-31EB-63BE5E721300"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76C897D3-33F3-F030-E485-80FFE48BD00E" name="FATURA_ITEM_TP_ITEM_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>0A182145-BC46-3C0D-7804-CDA13DAA0E43</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A453A301-28AF-E46C-4682-309CD10CA41C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

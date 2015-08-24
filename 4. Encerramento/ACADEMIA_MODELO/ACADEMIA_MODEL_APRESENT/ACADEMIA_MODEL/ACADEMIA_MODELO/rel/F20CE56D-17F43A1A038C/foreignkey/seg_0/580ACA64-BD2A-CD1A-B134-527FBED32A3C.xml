@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="580ACA64-BD2A-CD1A-B134-527FBED32A3C" name="ATESTADO_AVALIACAO_MEDICA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>4E360B8C-C63F-22A4-0B2D-31A80277F539</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>39B506E0-0C09-4DCC-0BE4-99E266BC2140</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>91BA7627-D94C-950B-C642-10D759F01639</localFKIndex>
+<keyObject>C4F70FEB-5E1A-FEC1-9A4D-D48BFE1CBFEA</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

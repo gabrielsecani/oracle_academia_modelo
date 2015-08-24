@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A581774E-C769-4E45-B485-958DD53D5BCE" name="PESQUISA_PERGUNTA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:50:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PERGUNTA" id="BFB2E596-D900-91EE-1D13-11549182DA0D">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:51:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_PESQUISA" id="DB5CCD7B-C4AB-6E7C-A3F3-AD2307607AC0">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 13:55:12 UTC</createdTime>
+<generatorID>BC0FB5FC-972B-341E-F318-D09917D962F8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>C04EE103-73A8-6967-F307-2D54AD7B6E45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="PERGUNTA" id="A319B23F-4193-8A22-7E2E-19055BF142E3">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:52:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE51DB91-B254-2F01-C353-6E74E8B160A2" name="PERGUNTA PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:51:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BFB2E596-D900-91EE-1D13-11549182DA0D</newElementsIDs>
+<usedAttributes>
+<attributeRef>BFB2E596-D900-91EE-1D13-11549182DA0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

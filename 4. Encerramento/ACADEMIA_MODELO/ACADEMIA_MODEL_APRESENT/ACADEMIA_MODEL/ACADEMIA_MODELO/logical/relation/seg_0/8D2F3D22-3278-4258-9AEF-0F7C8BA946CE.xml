@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FUNCIONARIO TEM AVALIACAO_FUNC_RESPONSAVEL" directorySegmentName="seg_0" id="8D2F3D22-3278-4258-9AEF-0F7C8BA946CE">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-24 18:37:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>263BB480-9517-EF3E-FC6F-A405AF4B8CE3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>985AE926-9D2E-4949-B139-7D47054CAEBF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>950D9A24-CEE9-1E40-B98B-090AADCFA77D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

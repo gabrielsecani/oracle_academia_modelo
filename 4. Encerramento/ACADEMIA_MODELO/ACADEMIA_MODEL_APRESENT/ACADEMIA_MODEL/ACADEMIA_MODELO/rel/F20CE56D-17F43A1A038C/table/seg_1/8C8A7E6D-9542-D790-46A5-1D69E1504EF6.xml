@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="8C8A7E6D-9542-D790-46A5-1D69E1504EF6" name="PROMOCAO_ACUMULADA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>EB7E1997-947A-7FAE-B95E-E74FA44149E7</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROMOCAO_COD_PROMOCAO2" id="016F6736-6CBD-93F2-7C6C-07BC894E9079">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>1548AD44-99BC-7A67-DC35-0B43210B9046</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>59BB9231-FEA6-7787-90D7-198BAB539A96</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6CB3619-3DA6-E510-B253-83AB30FDE768" referredColumn="59BB9231-FEA6-7787-90D7-198BAB539A96"/>
+</associations>
+</Column>
+<Column name="PROMOCAO_COD_PROMOCAO" id="1FF1F9EB-7334-B6B2-CA8E-4D86E760065D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>10DFA082-3534-3E6D-C5FA-C8FB1817263D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>59BB9231-FEA6-7787-90D7-198BAB539A96</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4808F56F-2D63-0607-80AF-9EAB59EB3C6C" referredColumn="59BB9231-FEA6-7787-90D7-198BAB539A96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9713B2F-3F38-415B-0FC4-A4F5E5B9CA39" name="PROMOCAO_ACUMULADA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>711DA7B0-AC32-CC35-25DF-10C00D5D2D34</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF1F9EB-7334-B6B2-CA8E-4D86E760065D"/>
+<colUsage columnID="016F6736-6CBD-93F2-7C6C-07BC894E9079"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C140811-C206-E036-2CCF-2DC105CB5CD9" name="PROMOCAO_ACUMULADA_PROMOCAO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>EC701A41-CBAE-3B1E-8B74-80D7FEF75C90</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FF1F9EB-7334-B6B2-CA8E-4D86E760065D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD07D64C-AD4E-4568-41DE-3316D57C4F28" name="PROMOCAO_ACUMULADA_PROMOCAO_FKv2">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>C16B3105-DE86-F438-DA78-2F5F4F2823C8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="016F6736-6CBD-93F2-7C6C-07BC894E9079"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

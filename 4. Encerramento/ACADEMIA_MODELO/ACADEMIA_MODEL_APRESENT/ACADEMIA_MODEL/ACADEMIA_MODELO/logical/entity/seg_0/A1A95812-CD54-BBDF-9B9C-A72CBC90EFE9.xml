@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1A95812-CD54-BBDF-9B9C-A72CBC90EFE9" name="GRUPO_ATRIBUTOS">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:10:55 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_GRUPO_ATRIBUTOS" id="A3029C39-D58C-00D1-9B70-A9B1F4C28E00">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:11:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="NOME" id="5F28E4C9-52BE-4176-15D8-6EF2AD238200">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:11:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="DESCRICAO" id="7CE86645-35E0-404B-E0E4-9638B8559ABE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:11:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+<Attribute name="IMAGEM" id="5A94ADA2-4357-6BFE-01EC-8B3AD4AF6203">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:30:34 UTC</createdTime>
+<comment>Imagem para exibir por baixo da imagem do atributo (que poderá ser transparente para visualização do corpo(esta img) com a área no atributo por cima.</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7D8BB48-3EA9-330B-BFED-0444A38A1AC0" name="GRUPO_ATRIBUTOS PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:12:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A3029C39-D58C-00D1-9B70-A9B1F4C28E00</newElementsIDs>
+<usedAttributes>
+<attributeRef>A3029C39-D58C-00D1-9B70-A9B1F4C28E00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

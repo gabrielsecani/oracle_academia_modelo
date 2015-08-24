@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="606C272A-1CA9-56D8-9071-C68FB6FADB32" name="AVALIACAO_FISICA_META">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:26:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_META" id="5A6C9442-8A10-D732-B164-3782A98D640D">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:26:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_ALUNO" id="55B9375A-2497-95D6-0191-8BF7D97D1917">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 19:53:03 UTC</createdTime>
+<generatorID>14BCB2E9-2299-B0C9-A64C-069907364697</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>56E1FD82-16DB-62C1-54D3-AA2C75690333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="OBS" id="30EF1216-FE79-92E4-F2A3-3749DF616AD3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 19:19:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+<Attribute name="DT_INICIO" id="647AA4A3-19C9-789C-F529-0077195FA9C8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:01:30 UTC</createdTime>
+<comment>Início da meta, data de cadastro</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="DT_FIM" id="485300A4-EEBD-4C52-E526-5B74EF1614EA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-02 20:01:31 UTC</createdTime>
+<comment>Quando a meta foi alcançada</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70EE5A89-5D2B-BB7C-D81C-26B4CFE6F878" name="AVALIACAO_FISICA_META PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 03:26:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5A6C9442-8A10-D732-B164-3782A98D640D,14BCB2E9-2299-B0C9-A64C-069907364697,21DE0D22-32CC-BB40-BF7F-5B071AC0B3C3</newElementsIDs>
+<usedAttributes>
+<attributeRef>5A6C9442-8A10-D732-B164-3782A98D640D</attributeRef>
+<attributeRef>55B9375A-2497-95D6-0191-8BF7D97D1917</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

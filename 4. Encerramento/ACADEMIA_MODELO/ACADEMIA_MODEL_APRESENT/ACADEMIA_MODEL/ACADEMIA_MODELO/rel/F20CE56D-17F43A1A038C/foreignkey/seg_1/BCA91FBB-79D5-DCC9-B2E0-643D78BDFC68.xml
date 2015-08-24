@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="BCA91FBB-79D5-DCC9-B2E0-643D78BDFC68" name="PESSOA_CIDADE_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>DEF0A8FD-2FA2-3DC0-E7A6-769849C5E6BC</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>E5034F3D-C81B-A54C-842C-427043D6671A</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>21A30078-8BC7-0DBA-C405-EDE016F471CE</localFKIndex>
+<keyObject>D17CCB77-BDD6-1434-7F88-E7B0B7C0FC5C</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

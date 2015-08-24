@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PESSOA TEM BIOMETRIA" directorySegmentName="seg_1" id="06EB78B7-0F47-463C-B72B-196B36EED8CD">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-23 01:30:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>83B0FD13-743B-2527-28EA-8DCB9C95F460</sourcePk>
+<targetPk>2D726714-C832-1F52-ACBF-9BB1109CD896</targetPk>
+<dominantRole>B1361309-CF28-94C8-726F-A32BF7217A6F</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B5AF756-8953-0AFD-1705-190F6B1ACEED</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B1361309-CF28-94C8-726F-A32BF7217A6F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

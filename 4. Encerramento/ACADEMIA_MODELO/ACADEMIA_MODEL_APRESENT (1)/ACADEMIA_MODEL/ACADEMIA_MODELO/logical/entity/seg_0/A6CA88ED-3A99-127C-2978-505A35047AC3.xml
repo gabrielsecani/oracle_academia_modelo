@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6CA88ED-3A99-127C-2978-505A35047AC3" name="COMUNICACAO">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:42:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_COMUNICACAO" id="B2E2C712-42B6-4DA3-F200-32601C18AD48">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:42:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="TITULO" id="6C07845E-CA03-4AA4-E7A7-0E2FAE7C8B47">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:42:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="MENSAGEM" id="8722420C-8C87-B0E6-6AB2-FCD9EB9EBDA6">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:42:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+<Attribute name="IND_STATUS_ENVIO" id="60D0C9A9-9903-78DB-A7DA-F3890EEBF55D">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:42:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="DT_ENVIO" id="E3A6FF64-598E-923F-66FD-B77A75BB3064">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:43:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="STATUS_RECEBIMENTO" id="1100966D-36BB-7B03-3B5B-815F27242E19">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:42:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="DT_RECEBIMENTO" id="B386C5EE-2B8C-E481-D71C-5E2C749FAEEF">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:43:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute name="COD_PESSOA" id="864AD382-E7F8-D615-1163-813B00C66608">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:05:22 UTC</createdTime>
+<generatorID>89B3D265-684B-A011-901C-F60F5C66331F</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>56E1FD82-16DB-62C1-54D3-AA2C75690333</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="COD_TP_INTRA_COMUNICACAO" id="C36EA523-1390-C373-4A70-5CD71292B12E">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 00:18:33 UTC</createdTime>
+<generatorID>A904C27B-897A-1AEA-CE4C-AF996785418D</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>CBD1C2E1-8492-D7DF-71B8-6B1DF792B1FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29FCD493-BFEE-2DD8-1CE0-698465C48C4A" name="COMUNICACAO PK">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:42:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B2E2C712-42B6-4DA3-F200-32601C18AD48</newElementsIDs>
+<usedAttributes>
+<attributeRef>B2E2C712-42B6-4DA3-F200-32601C18AD48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

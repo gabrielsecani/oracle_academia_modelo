@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A51566C-DF78-0B4C-731C-D6115298E9BD" name="MATRICULA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>904EF7B5-1FBD-E70A-048D-ECC6F2DF8FB4</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MATRICULA" id="B23846FF-B87C-9ABF-9FBA-7995E005701F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2CCE0385-00F9-D4C7-D45F-0A99825B1B9C</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATRICULA_COD_MATRICULA" id="EF2545E1-2DE9-4386-BC49-21A37297181A">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>619A87F9-A563-065A-BD62-870AA7D4BF33</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B23846FF-B87C-9ABF-9FBA-7995E005701F</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2AD051B-1F45-8D23-5C0A-454D43D0B585" referredColumn="B23846FF-B87C-9ABF-9FBA-7995E005701F"/>
+</associations>
+</Column>
+<Column name="IND_ATIVO" id="00A055FA-0E3F-A96B-289F-65E6618D7BFA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>B626FFD4-D8D4-E4BA-B413-66EA9976204A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="341EDCFE-269F-654A-8F9C-D8256DBA62BC">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>8F72AE97-C71D-6911-C222-1F017D0BE2BF</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FIM" id="77CB2B41-4F12-9FCD-759F-DE9B48A6E144">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>9974DACE-39DA-78C6-644E-0C14B82A55F5</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALUNO_COD_PESSOA" id="55DDF91F-4C05-3188-8CF3-785131EE19BE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>2FC1B189-7FFF-F090-DEFE-0105A00201CC</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C7042408-1F8A-D5D0-671A-F8DA64627178</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E66E30C-882E-D9D9-5E0D-B884FB3BE60B" referredColumn="C7042408-1F8A-D5D0-671A-F8DA64627178"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD7B7CEF-0050-ADC8-095A-FB1C3757958C" name="MATRICULA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>1F229E91-7297-F1B4-B568-6427F3256D55</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B23846FF-B87C-9ABF-9FBA-7995E005701F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E10A2F6D-DDC5-F069-C177-8F32C1D8EF44" name="MATRICULA_MATRICULA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>6FDDB958-40C4-5CDD-6F95-8C5CFD9D69F1</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF2545E1-2DE9-4386-BC49-21A37297181A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F30B11B7-5A5E-3415-D4D5-7E9DB6285C7B" name="MATRICULA_ALUNO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:59:38 UTC</createdTime>
+<generatorID>ADDD1949-E5A4-95AB-FD5B-F3B71991EA7E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55DDF91F-4C05-3188-8CF3-785131EE19BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

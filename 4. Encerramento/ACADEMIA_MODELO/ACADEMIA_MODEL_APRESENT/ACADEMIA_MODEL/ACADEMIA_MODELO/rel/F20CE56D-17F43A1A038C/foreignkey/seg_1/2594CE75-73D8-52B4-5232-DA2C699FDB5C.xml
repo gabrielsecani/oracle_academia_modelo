@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="2594CE75-73D8-52B4-5232-DA2C699FDB5C" name="PEDIDO_MANUTENCAO_FUNCIONARIO_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>FB4BA1A9-EB31-3472-7371-072CDCDD9D5A</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>B8208669-A4A9-83CF-6F7E-91806284E182</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>4D933533-1B6C-10CF-B1E3-8161473E827C</localFKIndex>
+<keyObject>C019A418-2890-57F6-9086-F507098F3EAB</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

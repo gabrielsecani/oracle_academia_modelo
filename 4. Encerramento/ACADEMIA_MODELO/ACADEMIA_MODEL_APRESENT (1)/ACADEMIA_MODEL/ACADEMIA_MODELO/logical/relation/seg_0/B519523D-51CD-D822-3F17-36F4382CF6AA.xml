@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PLANO_ALUNO" directorySegmentName="seg_0" id="B519523D-51CD-D822-3F17-36F4382CF6AA">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 14:19:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>632E59AE-07BF-711D-7C11-D3D91532BA90</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CD9326F7-CA47-65B3-F63C-57FADB1250E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5070816-FD06-3CEB-5F9B-5B9985F01566</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="DT_INICIO" id="5C087466-1648-6598-3CC9-6D0CD31E96E6">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:20:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="DT_FIM" id="D6D99A2C-5071-AAD5-2720-3B681F981673">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-22 22:20:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</attribute>
+<attribute name="COD_PROMOCAO" id="8CCAE598-3E7C-35AC-7B99-AD6F4C7867E6">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 01:18:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</attribute>
+</attributes>
+</Relation>

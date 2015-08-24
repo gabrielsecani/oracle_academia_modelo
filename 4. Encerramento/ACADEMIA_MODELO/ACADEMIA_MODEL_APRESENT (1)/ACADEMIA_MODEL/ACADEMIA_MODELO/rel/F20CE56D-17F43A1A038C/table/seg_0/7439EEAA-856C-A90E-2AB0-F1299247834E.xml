@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7439EEAA-856C-A90E-2AB0-F1299247834E" name="CONTRATO_PESSOA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTRATO_FRANQUIA_COD_CONTRATO_FRANQUIA" id="A06066B9-F714-7912-2C00-917AF9BA713D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>200538BB-8D9C-25C0-D46D-7BA1C049D329</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8D1B972-A1B0-D5AA-DA01-84FF05DCAAAD" referredColumn="200538BB-8D9C-25C0-D46D-7BA1C049D329"/>
+</associations>
+</Column>
+<Column name="PESSOA_COD_PESSOA" id="3908EE57-ED4C-235B-1671-F229323C357F">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>2D05B152-57EC-C0C3-CDF9-991B76E8217D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56D251B3-B3F9-1101-5295-6BA34DE6C12D" referredColumn="2D05B152-57EC-C0C3-CDF9-991B76E8217D"/>
+</associations>
+</Column>
+<Column name="PCT_CONTRATO" id="619A0B9E-23B0-DD99-5F2C-0199578F1DF9">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Somando todos as PESSOAs de um CONTRATO deverá ser 100.</comment>
+<generatorID>761F9628-A321-6E2C-500F-DB7C29EE9146</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="IND_RESPONSAVEL" id="6B927907-A7DE-9150-4EC4-89354FE73717">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<comment>Pessoa com responsabilidade sobre a franquia (geralmente o de maior participação)</comment>
+<generatorID>2BD43DE9-912E-EE12-AC33-706B401FDE93</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F77DCDA-5568-79FE-6279-1EFED1F3B3F1" name="CONTRATO_PESSOA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A06066B9-F714-7912-2C00-917AF9BA713D"/>
+<colUsage columnID="3908EE57-ED4C-235B-1671-F229323C357F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31D2AA8B-5ECA-C3F5-1283-E3D6D2BA0F63" name="FK_ASS_42">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>1A21A148-FF91-BDE9-D9E9-690BF9C39B33</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A06066B9-F714-7912-2C00-917AF9BA713D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A4D9BD0-47FD-C85D-74CB-F39E7CA89FFE" name="FK_ASS_43">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>1A21A148-FF91-BDE9-D9E9-690BF9C39B33</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3908EE57-ED4C-235B-1671-F229323C357F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

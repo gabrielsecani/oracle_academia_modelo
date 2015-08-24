@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="C26D056D-9826-330B-CD1B-79D47582CC59" name="TURMA_ALUNO">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALUNO_COD_PESSOA" id="9EBDA264-4C15-CEF4-E094-9F38512C6C83">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C7042408-1F8A-D5D0-671A-F8DA64627178</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B6168BB-BEB0-84FA-04CE-EB1ECD5D38E6" referredColumn="C7042408-1F8A-D5D0-671A-F8DA64627178"/>
+</associations>
+</Column>
+<Column name="AULA_COD_AULA" id="6EA6E7C1-2B83-E5D8-64D9-664FEFB248EA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>140FD896-B1EB-0C57-0829-E4C21F2AA7D9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAD9C098-9C37-E520-261C-D307BED30255" referredColumn="140FD896-B1EB-0C57-0829-E4C21F2AA7D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88D0B7E2-7E94-DA75-C3B4-3149E8EE7146" name="TURMA_ALUNO_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EBDA264-4C15-CEF4-E094-9F38512C6C83"/>
+<colUsage columnID="6EA6E7C1-2B83-E5D8-64D9-664FEFB248EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57CDB1A8-4D18-B120-5F50-1B3D7EAE897F" name="FK_ASS_104">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>8C6E7238-555A-1DD0-9A23-B6B3821A76E9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EBDA264-4C15-CEF4-E094-9F38512C6C83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA3BD2C6-5993-A43A-54F6-0CE129B2125C" name="FK_ASS_105">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>8C6E7238-555A-1DD0-9A23-B6B3821A76E9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EA6E7C1-2B83-E5D8-64D9-664FEFB248EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

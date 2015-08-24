@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D3E9BDAA-5ED4-996B-34CD-1269D834F92B" name="FORNCEDOR_PESSOA_JURIDICA_FK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>7861EAEE-ACAD-92ED-3286-6A572C7085F5</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<arc>70CD2FFD-8525-7699-FCDB-7FE3D270B3FB</arc>
+<containerWithKeyObject>7534638A-38FA-FCE9-8C2B-F6A7604D88EE</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>62462BA6-AEE8-E9AE-E1DA-FAD845C0E80C</localFKIndex>
+<keyObject>B017EE1A-3082-B25A-0FB2-6EB445AEDEA4</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

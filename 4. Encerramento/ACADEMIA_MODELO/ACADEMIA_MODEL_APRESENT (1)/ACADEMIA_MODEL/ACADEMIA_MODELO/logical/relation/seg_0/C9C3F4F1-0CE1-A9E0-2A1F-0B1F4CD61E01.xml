@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVALIACAO_MEDICA POSSUI TP_VALOR_AVALIACAO" directorySegmentName="seg_0" id="C9C3F4F1-0CE1-A9E0-2A1F-0B1F4CD61E01">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-04 23:14:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<sourcePk>9C0F1B1B-728D-950A-8D27-B8BEE3EE51D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB721C56-359A-CD53-CB6F-22F1D2D2F73A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7FFA32E0-4BE1-FC14-A516-73AF0D95581D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

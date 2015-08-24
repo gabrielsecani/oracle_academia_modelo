@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1EAAB79-4B06-FD20-E2EE-BFCB2D684D06" name="FUNCIONARIO_SETOR">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SETOR_COD_SETOR" id="50BA156F-B45C-C9C1-7873-B8412BD5E0C3">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>BDE676E7-447D-5BAB-A29B-B36787C5C6F2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1523472-0BC2-158B-99FA-9495AB87631A" referredColumn="BDE676E7-447D-5BAB-A29B-B36787C5C6F2"/>
+</associations>
+</Column>
+<Column name="FUNCIONARIO_COD_PESSOA" id="C3B17F6E-725C-3060-A9F7-C7B4DEA6C4D5">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3956D851-B21C-A1F3-F0AF-AE61A8DC3FCD" referredColumn="8825BAE6-F2E2-D00D-7D0A-B0804FCC36AE"/>
+</associations>
+</Column>
+<Column name="DT_INICIO" id="6257B6E9-BC5C-EB81-A2A3-3E44BC9AFD31">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>B9B868EA-1301-803B-9A48-4C70DACB7A66</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="DT_FIM" id="A32AB43A-920D-4D72-B0AF-7592AEAD7A45">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>72224E91-D385-7799-D12A-A9CCC77FE876</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1471D72C-117D-6B9C-E59C-C02281C6475F" name="FUNCIONARIO_SETOR_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50BA156F-B45C-C9C1-7873-B8412BD5E0C3"/>
+<colUsage columnID="C3B17F6E-725C-3060-A9F7-C7B4DEA6C4D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="956D7A7C-0BF1-DAED-2A79-C07D41A9BAAB" name="FK_ASS_67">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>365BCF23-6DA9-1682-9BF5-027B1D693B5E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50BA156F-B45C-C9C1-7873-B8412BD5E0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9787B191-63AA-08E5-8453-476B95A2B81C" name="FK_ASS_68">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>365BCF23-6DA9-1682-9BF5-027B1D693B5E</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B17F6E-725C-3060-A9F7-C7B4DEA6C4D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

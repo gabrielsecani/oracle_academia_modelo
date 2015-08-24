@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="432FA894-5FF2-68E8-F869-29F30473222D" name="FK_ASS_92">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:25 UTC</createdTime>
+<generatorID>8C8B9AA7-B309-5A97-EA4B-9D2413CF53F8</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<containerWithKeyObject>4B404C89-C83D-13EF-545A-FC1288AB5530</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>9C2C3709-B676-1AC8-BD31-17BD98E08836</localFKIndex>
+<keyObject>5131F33E-CA1D-E544-3283-438E7AE598D9</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

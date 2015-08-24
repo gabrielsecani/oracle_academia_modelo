@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9672A9C7-07E1-CBD5-67ED-7344947BE7B2" name="AULA_DIAS_SEMANA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AULA_COD_AULA" id="68D6B62D-7131-19F7-DFAD-2BCD1C7411AA">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>140FD896-B1EB-0C57-0829-E4C21F2AA7D9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA6561E6-D283-4C0D-54E5-FECACC89484B" referredColumn="140FD896-B1EB-0C57-0829-E4C21F2AA7D9"/>
+</associations>
+</Column>
+<Column name="DIAS_SEMANA_COD_DIAS_SEMANA" id="DDE4B35C-E819-6C66-6E59-7CB3FDE2B953">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>6EE2CD75-37DE-1F74-6F77-FF7A8542B647</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE8E0BC8-5E51-CC61-2693-C747C64A5FC0" referredColumn="6EE2CD75-37DE-1F74-6F77-FF7A8542B647"/>
+</associations>
+</Column>
+<Column name="HORA_INICIO" id="AED7091C-3095-9341-19F4-B048ADCA4011">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>46601C5A-25A5-DB99-DDCC-F756523121D2</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="HORA_FIM" id="CE40EAB7-AF40-FE7A-3A72-611A55354932">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>9AD863F6-52BB-BD4E-DB4F-013E2CD85650</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73429F7A-6FC3-2AF1-9BA5-28C7BCE7DA7E" name="AULA_DIAS_SEMANA_PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68D6B62D-7131-19F7-DFAD-2BCD1C7411AA"/>
+<colUsage columnID="DDE4B35C-E819-6C66-6E59-7CB3FDE2B953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="635AEDCC-9197-C361-EC9C-79BB8E68B4F0" name="FK_ASS_18">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>3A204661-388F-8D3D-B82C-3CADFE80F450</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68D6B62D-7131-19F7-DFAD-2BCD1C7411AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF586B40-7365-8A2D-3635-9B939EC4D43D" name="FK_ASS_19">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-06 03:25:24 UTC</createdTime>
+<generatorID>3A204661-388F-8D3D-B82C-3CADFE80F450</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE4B35C-E819-6C66-6E59-7CB3FDE2B953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

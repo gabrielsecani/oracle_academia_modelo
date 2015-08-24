@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="821F4E4D-EF43-F290-DA5F-74BE47A0DFAE" name="EVENTO_IMAGEM">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:05:11 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SEQ_IMAGEM" id="7359B249-4D30-D5A8-8B08-C9F36C6E2D46">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:05:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="TITULO" id="3B0FADBB-BBEA-E051-6A26-B26FCAD9B5DE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 23:18:26 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="IMAGEM" id="790E2010-C00D-5007-B901-B22700CCACCD">
+<createdBy>Thales</createdBy>
+<createdTime>2015-04-21 05:05:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+</Attribute>
+<Attribute name="COD_EVENTO" id="751A0F4F-1EDE-857F-3830-84EFA1E8E010">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 23:17:50 UTC</createdTime>
+<generatorID>8EE097C9-B23F-8ED5-D88C-AF46574B5FB9</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="true"/>
+</engineerTo>
+<referedAttribute>7A545171-DB30-9AF4-DE13-79D8B0A63770</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0B48F85-BD00-4A69-73AB-553B2EB6BCB8" name="EVENTO_IMAGEM PK">
+<createdBy>Gabriel</createdBy>
+<createdTime>2015-05-03 23:18:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ACADEMIA_MODELO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F20CE56D-E086-A2AE-A316-17F43A1A038C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8EE097C9-B23F-8ED5-D88C-AF46574B5FB9,7359B249-4D30-D5A8-8B08-C9F36C6E2D46</newElementsIDs>
+<usedAttributes>
+<attributeRef>751A0F4F-1EDE-857F-3830-84EFA1E8E010</attributeRef>
+<attributeRef>7359B249-4D30-D5A8-8B08-C9F36C6E2D46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
